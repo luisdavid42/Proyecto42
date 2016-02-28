@@ -1,0 +1,11 @@
+c:\users\liu\documents\visual studio 2013\Projects\Proyecto42\InterfazDesktop\bin\Release\InterfazDesktop.exe.config
+c:\users\liu\documents\visual studio 2013\Projects\Proyecto42\InterfazDesktop\bin\Release\InterfazDesktop.exe
+c:\users\liu\documents\visual studio 2013\Projects\Proyecto42\InterfazDesktop\bin\Release\InterfazDesktop.pdb
+c:\users\liu\documents\visual studio 2013\Projects\Proyecto42\InterfazDesktop\obj\Release\InterfazDesktop.Principal.resources
+c:\users\liu\documents\visual studio 2013\Projects\Proyecto42\InterfazDesktop\obj\Release\InterfazDesktop.Properties.Resources.resources
+c:\users\liu\documents\visual studio 2013\Projects\Proyecto42\InterfazDesktop\obj\Release\InterfazDesktop.csproj.GenerateResource.Cache
+c:\users\liu\documents\visual studio 2013\Projects\Proyecto42\InterfazDesktop\obj\Release\InterfazDesktop.exe
+c:\users\liu\documents\visual studio 2013\Projects\Proyecto42\InterfazDesktop\obj\Release\InterfazDesktop.pdb
+C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazDesktop\obj\Release\InterfazDesktop.csprojResolveAssemblyReference.cache
+C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazDesktop\bin\Release\Wiri.dll
+C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazDesktop\bin\Release\Wiri.pdb

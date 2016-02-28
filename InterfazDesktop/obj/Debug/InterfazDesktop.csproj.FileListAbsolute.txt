@@ -1,0 +1,9 @@
+c:\users\liu\documents\visual studio 2013\Projects\Proyecto42\InterfazDesktop\bin\Debug\InterfazDesktop.exe.config
+c:\users\liu\documents\visual studio 2013\Projects\Proyecto42\InterfazDesktop\bin\Debug\InterfazDesktop.exe
+c:\users\liu\documents\visual studio 2013\Projects\Proyecto42\InterfazDesktop\bin\Debug\InterfazDesktop.pdb
+c:\users\liu\documents\visual studio 2013\Projects\Proyecto42\InterfazDesktop\obj\Debug\InterfazDesktop.csprojResolveAssemblyReference.cache
+c:\users\liu\documents\visual studio 2013\Projects\Proyecto42\InterfazDesktop\obj\Debug\InterfazDesktop.Principal.resources
+c:\users\liu\documents\visual studio 2013\Projects\Proyecto42\InterfazDesktop\obj\Debug\InterfazDesktop.Properties.Resources.resources
+c:\users\liu\documents\visual studio 2013\Projects\Proyecto42\InterfazDesktop\obj\Debug\InterfazDesktop.csproj.GenerateResource.Cache
+c:\users\liu\documents\visual studio 2013\Projects\Proyecto42\InterfazDesktop\obj\Debug\InterfazDesktop.exe
+c:\users\liu\documents\visual studio 2013\Projects\Proyecto42\InterfazDesktop\obj\Debug\InterfazDesktop.pdb
