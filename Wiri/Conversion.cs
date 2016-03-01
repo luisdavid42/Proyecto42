@@ -38,15 +38,65 @@ namespace Wiri
         {
             String resultado = "";
 
-            int j = 0;//para recorrer el resultado
-            for (int i = 0; i < original.Length; i++)
+            resultado = original.Replace(aBorrar, "");
+
+            return resultado;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="original"></param>
+        /// <param name="aBuscar"></param>
+        /// <param name="aReemplazar"></param>
+        /// <returns></returns>
+        public static String Reemplazar(String original, String aBuscar, String aReemplazar)
+        {
+            String resultado = "";
+
+            resultado = original.Replace(aBuscar, aReemplazar);
+
+            return resultado;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="original"></param>
+        /// <param name="regex"></param>
+        /// <returns></returns>
+        public static String Regex(String original, String regex)
+        {
+            String resultado = "";
+
+            if (System.Text.RegularExpressions.Regex.IsMatch(original, regex))
             {
-                if(original[i]!=aBorrar[0])
-                {
-                    resultado += original[i];
-                        j++;
-                }
+                resultado += " - valid";
             }
+
+            return resultado;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="original"></param>
+        /// <returns></returns>
+        public static String Mayusculizar(String original)
+        {
+            return original.ToUpper();
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="original"></param>
+        /// <returns></returns>
+        public static String Minusculizar(String original)
+        {
+            String resultado = "";
+
+
 
             return resultado;
         }

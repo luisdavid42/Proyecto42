@@ -35,16 +35,15 @@
             this.botonProcesar = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.wiriToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.enviarADocumentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.onTobulToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.opcionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.labelCajita1 = new System.Windows.Forms.Label();
             this.cajita1 = new System.Windows.Forms.TextBox();
             this.cajita2 = new System.Windows.Forms.TextBox();
             this.labelCajita2 = new System.Windows.Forms.Label();
+            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -98,8 +97,8 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.wiriToolStripMenuItem,
-            this.onTobulToolStripMenuItem,
-            this.opcionesToolStripMenuItem});
+            this.opcionesToolStripMenuItem,
+            this.salirToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(611, 24);
@@ -108,18 +107,9 @@
             // 
             // fileToolStripMenuItem
             // 
-            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.salirToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "File";
-            // 
-            // salirToolStripMenuItem
-            // 
-            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(96, 22);
-            this.salirToolStripMenuItem.Text = "Salir";
-            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
             // wiriToolStripMenuItem
             // 
@@ -134,12 +124,6 @@
             this.enviarADocumentoToolStripMenuItem.Name = "enviarADocumentoToolStripMenuItem";
             this.enviarADocumentoToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
             this.enviarADocumentoToolStripMenuItem.Text = "Enviar a Documento";
-            // 
-            // onTobulToolStripMenuItem
-            // 
-            this.onTobulToolStripMenuItem.Name = "onTobulToolStripMenuItem";
-            this.onTobulToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
-            this.onTobulToolStripMenuItem.Text = "OnTobul";
             // 
             // opcionesToolStripMenuItem
             // 
@@ -179,6 +163,13 @@
             this.labelCajita2.TabIndex = 18;
             this.labelCajita2.Text = "label2";
             // 
+            // salirToolStripMenuItem
+            // 
+            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
+            this.salirToolStripMenuItem.Text = "Salir";
+            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
+            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -213,8 +204,6 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem wiriToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem onTobulToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem enviarADocumentoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem opcionesToolStripMenuItem;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
@@ -222,6 +211,7 @@
         private System.Windows.Forms.TextBox cajita1;
         private System.Windows.Forms.TextBox cajita2;
         private System.Windows.Forms.Label labelCajita2;
+        private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
 
     }
 }

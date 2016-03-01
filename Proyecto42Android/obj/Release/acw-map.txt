@@ -1,4 +1,0 @@
-Proyecto42.MainActivity, Proyecto42;md517ac627817d6fb286bccd7fe4ce6535c.MainActivity
-Proyecto42.MainActivity, Proyecto42, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md517ac627817d6fb286bccd7fe4ce6535c.MainActivity
-Proyecto42.MainActivity;md517ac627817d6fb286bccd7fe4ce6535c.MainActivity
-proyecto42.MainActivity;md517ac627817d6fb286bccd7fe4ce6535c.MainActivity

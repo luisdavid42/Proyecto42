@@ -59,13 +59,13 @@ namespace InterfazDesktop
                     break;
                 case Opcion.Borrar: resultado = Wiri.Conversion.Borrar(entrada, extra1);
                     break;
-                case Opcion.Reemplazar:
+                case Opcion.Reemplazar: resultado = Wiri.Conversion.Reemplazar(entrada, extra1, extra2);
                     break;
-                case Opcion.Regex:
+                case Opcion.Regex: Wiri.Conversion.Regex(entrada, extra1);
                     break;
-                case Opcion.Mayusculizar:
+                case Opcion.Mayusculizar: Wiri.Conversion.Mayusculizar(entrada);
                     break;
-                case Opcion.Minusculizar:
+                case Opcion.Minusculizar: Wiri.Conversion.Minusculizar(entrada);
                     break;
                 default:
                     break;
@@ -125,13 +125,13 @@ namespace InterfazDesktop
                     break;
                 case Opcion.Borrar: MostrarCajitasExtra(true, false, "Texto a Borrar", "");
                     break;
-                case Opcion.Reemplazar:
+                case Opcion.Reemplazar: MostrarCajitasExtra(true, true, "A Buscar", "A Reemplazar");
                     break;
-                case Opcion.Regex:
+                case Opcion.Regex: MostrarCajitasExtra(true, false, "Regex a Aplicar", "");
                     break;
-                case Opcion.Mayusculizar:
+                case Opcion.Mayusculizar: MostrarCajitasExtra(false, false, "", "");
                     break;
-                case Opcion.Minusculizar:
+                case Opcion.Minusculizar: MostrarCajitasExtra(false, false, "", "");
                     break;
                 default:
                     break;
