@@ -38,12 +38,12 @@
             this.wiriToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.enviarADocumentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.opcionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.labelCajita1 = new System.Windows.Forms.Label();
             this.cajita1 = new System.Windows.Forms.TextBox();
             this.cajita2 = new System.Windows.Forms.TextBox();
             this.labelCajita2 = new System.Windows.Forms.Label();
-            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -101,7 +101,7 @@
             this.salirToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(611, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(626, 24);
             this.menuStrip1.TabIndex = 15;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -130,6 +130,13 @@
             this.opcionesToolStripMenuItem.Name = "opcionesToolStripMenuItem";
             this.opcionesToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
             this.opcionesToolStripMenuItem.Text = "Opciones";
+            // 
+            // salirToolStripMenuItem
+            // 
+            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
+            this.salirToolStripMenuItem.Text = "Salir";
+            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
             // labelCajita1
             // 
@@ -163,18 +170,11 @@
             this.labelCajita2.TabIndex = 18;
             this.labelCajita2.Text = "label2";
             // 
-            // salirToolStripMenuItem
-            // 
-            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
-            this.salirToolStripMenuItem.Text = "Salir";
-            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
-            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(611, 334);
+            this.ClientSize = new System.Drawing.Size(626, 334);
             this.Controls.Add(this.cajita2);
             this.Controls.Add(this.labelCajita2);
             this.Controls.Add(this.cajita1);

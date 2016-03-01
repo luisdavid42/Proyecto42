@@ -9,3 +9,4 @@ c:\users\liu\documents\visual studio 2013\Projects\Proyecto42\InterfazDesktop\ob
 C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazDesktop\obj\Release\InterfazDesktop.csprojResolveAssemblyReference.cache
 C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazDesktop\bin\Release\Wiri.dll
 C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazDesktop\bin\Release\Wiri.pdb
+C:\Users\Liu\documents\visual studio 2013\Projects\Proyecto42\InterfazDesktop\obj\Release\InterfazDesktop.Forms.Bases.FormBase.resources
