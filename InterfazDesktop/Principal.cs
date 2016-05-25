@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace InterfazDesktop
 {
@@ -61,11 +62,13 @@ namespace InterfazDesktop
                     break;
                 case Opcion.Reemplazar: resultado = Wiri.Conversion.Reemplazar(entrada, extra1, extra2);
                     break;
-                case Opcion.Regex: Wiri.Conversion.Regex(entrada, extra1);
+                case Opcion.Regex: resultado = Wiri.Conversion.Regex(entrada, extra1);
                     break;
-                case Opcion.Mayusculizar: Wiri.Conversion.Mayusculizar(entrada);
+                case Opcion.Mayusculizar:resultado =  Wiri.Conversion.Mayusculizar(entrada);
                     break;
-                case Opcion.Minusculizar: Wiri.Conversion.Minusculizar(entrada);
+                case Opcion.Minusculizar: resultado = Wiri.Conversion.Minusculizar(entrada);
+                    break;
+                case Opcion.Enumerar: resultado = Wiri.Conversion.Enumerar(entrada);
                     break;
                 default:
                     break;
@@ -161,6 +164,13 @@ namespace InterfazDesktop
             DecidirCajitasExtra((Opcion)Selector.SelectedIndex);
             
         }
+
+        private void enviarADocumentoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            saveFileDialog1.ShowDialog();
+            string nombre = saveFileDialog1.FileName;
+            File.WriteAllText(nombre, cajaSalida.Text);
+        }
         #endregion
 
         enum Opcion
@@ -170,7 +180,8 @@ namespace InterfazDesktop
             Reemplazar,
             Regex,
             Mayusculizar,
-            Minusculizar
+            Minusculizar,
+            Enumerar
         }
     }
 }

@@ -124,6 +124,7 @@
             this.enviarADocumentoToolStripMenuItem.Name = "enviarADocumentoToolStripMenuItem";
             this.enviarADocumentoToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
             this.enviarADocumentoToolStripMenuItem.Text = "Enviar a Documento";
+            this.enviarADocumentoToolStripMenuItem.Click += new System.EventHandler(this.enviarADocumentoToolStripMenuItem_Click);
             // 
             // opcionesToolStripMenuItem
             // 
@@ -137,6 +138,10 @@
             this.salirToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
+            // 
+            // saveFileDialog1
+            // 
+            this.saveFileDialog1.FileName = "Wiri.txt";
             // 
             // labelCajita1
             // 

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace Wiri
 {
@@ -18,10 +19,10 @@ namespace Wiri
         /// <returns>Cadena Alrevesada</returns>
         public static String Alrevesar(String cadena)
         {
-            String resultado="";
-            for(int i=0;i<cadena.Length;i++)
+            String resultado = "";
+            for (int i = 0; i < cadena.Length; i++)
             {
-                resultado+= cadena[cadena.Length - i - 1];
+                resultado += cadena[cadena.Length - i - 1];
             }
 
 
@@ -88,15 +89,38 @@ namespace Wiri
         }
 
         /// <summary>
-        /// 
+        /// Convierte todos los caracteres a letras minúsculas
         /// </summary>
         /// <param name="original"></param>
         /// <returns></returns>
         public static String Minusculizar(String original)
         {
+            return original.ToLower();
+        }
+
+        /// <summary>
+        /// Retorna el string enumerado
+        /// </summary>
+        /// <param name="original"></param>
+        /// <returns></returns>
+        public static String Enumerar(String original)
+        {
             String resultado = "";
 
-
+            using (StringReader lector = new StringReader(original))
+            {
+                string linea = string.Empty;
+                int cant = 1;
+                do
+                {
+                    linea = lector.ReadLine();
+                    if (linea != null)
+                    {
+                        resultado += cant + ". " + linea + "\r\n";
+                    }
+                    cant++;
+                } while (linea != null);
+            }
 
             return resultado;
         }
