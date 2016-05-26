@@ -68,6 +68,8 @@ namespace InterfazDesktop
                     break;
                 case Opcion.Minusculizar: resultado = Wiri.Conversion.Minusculizar(entrada);
                     break;
+                case Opcion.InvertirCase: resultado = Wiri.Conversion.InvertirCase(entrada);
+                    break;
                 case Opcion.Enumerar: resultado = Wiri.Conversion.Enumerar(entrada);
                     break;
                 default:
@@ -141,6 +143,22 @@ namespace InterfazDesktop
             }
         }
          #endregion
+
+        /// <summary>
+        /// 
+        /// </summary>
+        void desplegarManualUsuario()
+        {
+            MessageBox.Show("Resuelve lol");
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        void desplegarPreferencias()
+        {
+            MessageBox.Show("0 preferencias");
+        }
         #endregion
 
         #region Eventos
@@ -171,6 +189,16 @@ namespace InterfazDesktop
             string nombre = saveFileDialog1.FileName;
             File.WriteAllText(nombre, cajaSalida.Text);
         }
+
+        private void manualDeUsuarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            desplegarManualUsuario();
+        }
+
+        private void preferenciasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            desplegarPreferencias();
+        }
         #endregion
 
         enum Opcion
@@ -181,7 +209,10 @@ namespace InterfazDesktop
             Regex,
             Mayusculizar,
             Minusculizar,
+            InvertirCase,
             Enumerar
         }
+
+        
     }
 }

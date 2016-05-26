@@ -99,6 +99,22 @@ namespace Wiri
         }
 
         /// <summary>
+        /// Invierte todos los caracteres a letras minusculas
+        /// </summary>
+        /// <param name="original"></param>
+        /// <returns></returns>
+        public static String InvertirCase(String original)
+        {
+            String resultado = "";
+            resultado = new String(
+                original.Select(c => char.IsLetter(c) ? (char.IsUpper(c) ?
+                                  char.ToLower(c) : char.ToUpper(c)) : c).ToArray());
+
+
+            return resultado;
+        }
+
+        /// <summary>
         /// Retorna el string enumerado
         /// </summary>
         /// <param name="original"></param>
