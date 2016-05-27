@@ -1,1 +1,4 @@
-Boton Multilinea
+settings Multilinea
+Desplazar Boton Dale
+Crear Boton pegar
+agregarle logo
