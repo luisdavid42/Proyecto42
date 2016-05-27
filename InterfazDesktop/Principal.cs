@@ -17,6 +17,8 @@ namespace InterfazDesktop
         {
             InitializeComponent();
             Load();
+            this.Text = "Jugando con Strings V" + Application.ProductVersion;
+            //menuStrip1.Items.Add("Versión " + Application.ProductVersion);
         }
 
         #region Metodos
@@ -213,6 +215,9 @@ namespace InterfazDesktop
             Enumerar
         }
 
-        
+        private void ayudaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
