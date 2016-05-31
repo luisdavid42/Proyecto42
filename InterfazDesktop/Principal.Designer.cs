@@ -30,9 +30,9 @@
         {
             this.cajaSalida = new System.Windows.Forms.TextBox();
             this.cajaEntrada = new System.Windows.Forms.TextBox();
-            this.botonCopiar = new System.Windows.Forms.Button();
+            this.botonCopiarMS = new System.Windows.Forms.Button();
             this.Selector = new System.Windows.Forms.ComboBox();
-            this.botonProcesar = new System.Windows.Forms.Button();
+            this.botonProcesarMS = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.wiriToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -45,15 +45,24 @@
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.labelCajita1 = new System.Windows.Forms.Label();
-            this.cajita1 = new System.Windows.Forms.TextBox();
-            this.cajita2 = new System.Windows.Forms.TextBox();
+            this.cajaAux1 = new System.Windows.Forms.TextBox();
+            this.cajaAux2 = new System.Windows.Forms.TextBox();
             this.labelCajita2 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1Strings = new System.Windows.Forms.TabPage();
             this.tabPage2Tiempo = new System.Windows.Forms.TabPage();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.botonProcesarTmp = new System.Windows.Forms.Button();
+            this.botonCopiarTmp = new System.Windows.Forms.Button();
+            this.selectorTiempo1 = new System.Windows.Forms.DateTimePicker();
+            this.selectorTiempo2 = new System.Windows.Forms.DateTimePicker();
+            this.cajaResultadoTmp = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1Strings.SuspendLayout();
+            this.tabPage2Tiempo.SuspendLayout();
             this.SuspendLayout();
             // 
             // cajaSalida
@@ -72,15 +81,15 @@
             this.cajaEntrada.Size = new System.Drawing.Size(222, 233);
             this.cajaEntrada.TabIndex = 13;
             // 
-            // botonCopiar
+            // botonCopiarMS
             // 
-            this.botonCopiar.Location = new System.Drawing.Point(420, 270);
-            this.botonCopiar.Name = "botonCopiar";
-            this.botonCopiar.Size = new System.Drawing.Size(75, 23);
-            this.botonCopiar.TabIndex = 12;
-            this.botonCopiar.Text = "Copiar";
-            this.botonCopiar.UseVisualStyleBackColor = true;
-            this.botonCopiar.Click += new System.EventHandler(this.botonCopiar_Click);
+            this.botonCopiarMS.Location = new System.Drawing.Point(420, 270);
+            this.botonCopiarMS.Name = "botonCopiarMS";
+            this.botonCopiarMS.Size = new System.Drawing.Size(75, 23);
+            this.botonCopiarMS.TabIndex = 12;
+            this.botonCopiarMS.Text = "Copiar";
+            this.botonCopiarMS.UseVisualStyleBackColor = true;
+            this.botonCopiarMS.Click += new System.EventHandler(this.botonCopiar_Click);
             // 
             // Selector
             // 
@@ -91,15 +100,15 @@
             this.Selector.TabIndex = 11;
             this.Selector.SelectedIndexChanged += new System.EventHandler(this.Selector_SelectedIndexChanged);
             // 
-            // botonProcesar
+            // botonProcesarMS
             // 
-            this.botonProcesar.Location = new System.Drawing.Point(98, 270);
-            this.botonProcesar.Name = "botonProcesar";
-            this.botonProcesar.Size = new System.Drawing.Size(75, 23);
-            this.botonProcesar.TabIndex = 10;
-            this.botonProcesar.Text = "Dale";
-            this.botonProcesar.UseVisualStyleBackColor = true;
-            this.botonProcesar.Click += new System.EventHandler(this.botonProcesar_Click);
+            this.botonProcesarMS.Location = new System.Drawing.Point(98, 270);
+            this.botonProcesarMS.Name = "botonProcesarMS";
+            this.botonProcesarMS.Size = new System.Drawing.Size(75, 23);
+            this.botonProcesarMS.TabIndex = 10;
+            this.botonProcesarMS.Text = "Dale";
+            this.botonProcesarMS.UseVisualStyleBackColor = true;
+            this.botonProcesarMS.Click += new System.EventHandler(this.botonProcesar_Click);
             // 
             // menuStrip1
             // 
@@ -147,7 +156,7 @@
             // preferenciasToolStripMenuItem
             // 
             this.preferenciasToolStripMenuItem.Name = "preferenciasToolStripMenuItem";
-            this.preferenciasToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
+            this.preferenciasToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.preferenciasToolStripMenuItem.Text = "Preferencias";
             this.preferenciasToolStripMenuItem.Click += new System.EventHandler(this.preferenciasToolStripMenuItem_Click);
             // 
@@ -194,19 +203,19 @@
             this.labelCajita1.TabIndex = 16;
             this.labelCajita1.Text = "label1";
             // 
-            // cajita1
+            // cajaAux1
             // 
-            this.cajita1.Location = new System.Drawing.Point(267, 56);
-            this.cajita1.Name = "cajita1";
-            this.cajita1.Size = new System.Drawing.Size(74, 20);
-            this.cajita1.TabIndex = 17;
+            this.cajaAux1.Location = new System.Drawing.Point(267, 56);
+            this.cajaAux1.Name = "cajaAux1";
+            this.cajaAux1.Size = new System.Drawing.Size(74, 20);
+            this.cajaAux1.TabIndex = 17;
             // 
-            // cajita2
+            // cajaAux2
             // 
-            this.cajita2.Location = new System.Drawing.Point(267, 113);
-            this.cajita2.Name = "cajita2";
-            this.cajita2.Size = new System.Drawing.Size(74, 20);
-            this.cajita2.TabIndex = 19;
+            this.cajaAux2.Location = new System.Drawing.Point(267, 113);
+            this.cajaAux2.Name = "cajaAux2";
+            this.cajaAux2.Size = new System.Drawing.Size(74, 20);
+            this.cajaAux2.TabIndex = 19;
             // 
             // labelCajita2
             // 
@@ -230,12 +239,12 @@
             // tabPage1Strings
             // 
             this.tabPage1Strings.Controls.Add(this.cajaEntrada);
-            this.tabPage1Strings.Controls.Add(this.cajita2);
-            this.tabPage1Strings.Controls.Add(this.botonProcesar);
+            this.tabPage1Strings.Controls.Add(this.cajaAux2);
+            this.tabPage1Strings.Controls.Add(this.botonProcesarMS);
             this.tabPage1Strings.Controls.Add(this.labelCajita2);
             this.tabPage1Strings.Controls.Add(this.Selector);
-            this.tabPage1Strings.Controls.Add(this.cajita1);
-            this.tabPage1Strings.Controls.Add(this.botonCopiar);
+            this.tabPage1Strings.Controls.Add(this.cajaAux1);
+            this.tabPage1Strings.Controls.Add(this.botonCopiarMS);
             this.tabPage1Strings.Controls.Add(this.labelCajita1);
             this.tabPage1Strings.Controls.Add(this.cajaSalida);
             this.tabPage1Strings.Location = new System.Drawing.Point(4, 22);
@@ -248,6 +257,14 @@
             // 
             // tabPage2Tiempo
             // 
+            this.tabPage2Tiempo.Controls.Add(this.cajaResultadoTmp);
+            this.tabPage2Tiempo.Controls.Add(this.label2);
+            this.tabPage2Tiempo.Controls.Add(this.selectorTiempo2);
+            this.tabPage2Tiempo.Controls.Add(this.selectorTiempo1);
+            this.tabPage2Tiempo.Controls.Add(this.botonProcesarTmp);
+            this.tabPage2Tiempo.Controls.Add(this.botonCopiarTmp);
+            this.tabPage2Tiempo.Controls.Add(this.label1);
+            this.tabPage2Tiempo.Controls.Add(this.label3);
             this.tabPage2Tiempo.Location = new System.Drawing.Point(4, 22);
             this.tabPage2Tiempo.Name = "tabPage2Tiempo";
             this.tabPage2Tiempo.Padding = new System.Windows.Forms.Padding(3);
@@ -255,6 +272,72 @@
             this.tabPage2Tiempo.TabIndex = 1;
             this.tabPage2Tiempo.Text = "Tiempo";
             this.tabPage2Tiempo.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(20, 71);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(48, 13);
+            this.label1.TabIndex = 22;
+            this.label1.Text = "Tiempo2";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(20, 13);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(48, 13);
+            this.label3.TabIndex = 20;
+            this.label3.Text = "Tiempo1";
+            // 
+            // botonProcesarTmp
+            // 
+            this.botonProcesarTmp.Location = new System.Drawing.Point(58, 233);
+            this.botonProcesarTmp.Name = "botonProcesarTmp";
+            this.botonProcesarTmp.Size = new System.Drawing.Size(75, 23);
+            this.botonProcesarTmp.TabIndex = 24;
+            this.botonProcesarTmp.Text = "Dale";
+            this.botonProcesarTmp.UseVisualStyleBackColor = true;
+            // 
+            // botonCopiarTmp
+            // 
+            this.botonCopiarTmp.Location = new System.Drawing.Point(365, 233);
+            this.botonCopiarTmp.Name = "botonCopiarTmp";
+            this.botonCopiarTmp.Size = new System.Drawing.Size(75, 23);
+            this.botonCopiarTmp.TabIndex = 25;
+            this.botonCopiarTmp.Text = "Copiar";
+            this.botonCopiarTmp.UseVisualStyleBackColor = true;
+            // 
+            // selectorTiempo1
+            // 
+            this.selectorTiempo1.Location = new System.Drawing.Point(88, 13);
+            this.selectorTiempo1.Name = "selectorTiempo1";
+            this.selectorTiempo1.Size = new System.Drawing.Size(200, 20);
+            this.selectorTiempo1.TabIndex = 26;
+            // 
+            // selectorTiempo2
+            // 
+            this.selectorTiempo2.Location = new System.Drawing.Point(88, 71);
+            this.selectorTiempo2.Name = "selectorTiempo2";
+            this.selectorTiempo2.Size = new System.Drawing.Size(200, 20);
+            this.selectorTiempo2.TabIndex = 27;
+            // 
+            // cajaResultadoTmp
+            // 
+            this.cajaResultadoTmp.Location = new System.Drawing.Point(23, 145);
+            this.cajaResultadoTmp.Name = "cajaResultadoTmp";
+            this.cajaResultadoTmp.Size = new System.Drawing.Size(74, 20);
+            this.cajaResultadoTmp.TabIndex = 29;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(20, 129);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(55, 13);
+            this.label2.TabIndex = 28;
+            this.label2.Text = "Resultado";
             // 
             // Principal
             // 
@@ -271,6 +354,8 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage1Strings.ResumeLayout(false);
             this.tabPage1Strings.PerformLayout();
+            this.tabPage2Tiempo.ResumeLayout(false);
+            this.tabPage2Tiempo.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -280,9 +365,9 @@
 
         private System.Windows.Forms.TextBox cajaSalida;
         private System.Windows.Forms.TextBox cajaEntrada;
-        private System.Windows.Forms.Button botonCopiar;
+        private System.Windows.Forms.Button botonCopiarMS;
         private System.Windows.Forms.ComboBox Selector;
-        private System.Windows.Forms.Button botonProcesar;
+        private System.Windows.Forms.Button botonProcesarMS;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem wiriToolStripMenuItem;
@@ -290,8 +375,8 @@
         private System.Windows.Forms.ToolStripMenuItem opcionesToolStripMenuItem;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
         private System.Windows.Forms.Label labelCajita1;
-        private System.Windows.Forms.TextBox cajita1;
-        private System.Windows.Forms.TextBox cajita2;
+        private System.Windows.Forms.TextBox cajaAux1;
+        private System.Windows.Forms.TextBox cajaAux2;
         private System.Windows.Forms.Label labelCajita2;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
         private System.Windows.Forms.TabControl tabControl1;
@@ -301,5 +386,13 @@
         private System.Windows.Forms.ToolStripMenuItem manualDeUsuarioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem preferenciasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem detallesDelSistemaToolStripMenuItem;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button botonProcesarTmp;
+        private System.Windows.Forms.Button botonCopiarTmp;
+        private System.Windows.Forms.DateTimePicker selectorTiempo1;
+        private System.Windows.Forms.DateTimePicker selectorTiempo2;
+        private System.Windows.Forms.TextBox cajaResultadoTmp;
+        private System.Windows.Forms.Label label2;
     }
 }

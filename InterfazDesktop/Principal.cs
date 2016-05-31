@@ -18,7 +18,9 @@ namespace InterfazDesktop
             InitializeComponent();
             Load();
             this.Text = "Jugando con Strings V" + Application.ProductVersion;
-            //menuStrip1.Items.Add("Versión " + Application.ProductVersion);
+
+            selectorTiempo1.Format = DateTimePickerFormat.Time;
+            //selectorTiempo.ShowUpDown = true;
         }
 
         #region Metodos
@@ -87,14 +89,14 @@ namespace InterfazDesktop
             if (va)
             {
                 labelCajita1.Show();
-                cajita1.Show();
+                cajaAux1.Show();
 
                 labelCajita1.Text = label;
             }
             else
             {
                 labelCajita1.Hide();
-                cajita1.Hide();
+                cajaAux1.Hide();
             }
         }
 
@@ -103,14 +105,14 @@ namespace InterfazDesktop
             if (va)
             {
                 labelCajita2.Show();
-                cajita2.Show();
+                cajaAux2.Show();
 
                 labelCajita2.Text = label;
             }
             else
             {
                 labelCajita2.Hide();
-                cajita2.Hide();
+                cajaAux2.Hide();
             }
         }
 
@@ -176,7 +178,7 @@ namespace InterfazDesktop
 
         private void botonProcesar_Click(object sender, EventArgs e)
         {
-            Procesar(cajaEntrada.Text,(Opcion)Selector.SelectedIndex,cajita1.Text,cajita2.Text);
+            Procesar(cajaEntrada.Text,(Opcion)Selector.SelectedIndex,cajaAux1.Text,cajaAux2.Text);
         }
 
         private void Selector_SelectedIndexChanged(object sender, EventArgs e)
