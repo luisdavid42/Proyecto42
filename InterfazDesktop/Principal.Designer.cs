@@ -51,14 +51,15 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1Strings = new System.Windows.Forms.TabPage();
             this.tabPage2Tiempo = new System.Windows.Forms.TabPage();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.botonProcesarTmp = new System.Windows.Forms.Button();
-            this.botonCopiarTmp = new System.Windows.Forms.Button();
-            this.selectorTiempo1 = new System.Windows.Forms.DateTimePicker();
-            this.selectorTiempo2 = new System.Windows.Forms.DateTimePicker();
             this.cajaResultadoTmp = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.selectorTiempo2 = new System.Windows.Forms.DateTimePicker();
+            this.selectorTiempo1 = new System.Windows.Forms.DateTimePicker();
+            this.botonProcesarTmp = new System.Windows.Forms.Button();
+            this.botonCopiarTmp = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.tabPage3Matematicas = new System.Windows.Forms.TabPage();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1Strings.SuspendLayout();
@@ -67,6 +68,7 @@
             // 
             // cajaSalida
             // 
+            this.cajaSalida.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.cajaSalida.Location = new System.Drawing.Point(356, 16);
             this.cajaSalida.Multiline = true;
             this.cajaSalida.Name = "cajaSalida";
@@ -156,7 +158,7 @@
             // preferenciasToolStripMenuItem
             // 
             this.preferenciasToolStripMenuItem.Name = "preferenciasToolStripMenuItem";
-            this.preferenciasToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.preferenciasToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
             this.preferenciasToolStripMenuItem.Text = "Preferencias";
             this.preferenciasToolStripMenuItem.Click += new System.EventHandler(this.preferenciasToolStripMenuItem_Click);
             // 
@@ -230,6 +232,7 @@
             // 
             this.tabControl1.Controls.Add(this.tabPage1Strings);
             this.tabControl1.Controls.Add(this.tabPage2Tiempo);
+            this.tabControl1.Controls.Add(this.tabPage3Matematicas);
             this.tabControl1.Location = new System.Drawing.Point(12, 38);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -273,23 +276,35 @@
             this.tabPage2Tiempo.Text = "Tiempo";
             this.tabPage2Tiempo.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // cajaResultadoTmp
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(20, 71);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(48, 13);
-            this.label1.TabIndex = 22;
-            this.label1.Text = "Tiempo2";
+            this.cajaResultadoTmp.Location = new System.Drawing.Point(23, 145);
+            this.cajaResultadoTmp.Name = "cajaResultadoTmp";
+            this.cajaResultadoTmp.Size = new System.Drawing.Size(74, 20);
+            this.cajaResultadoTmp.TabIndex = 29;
             // 
-            // label3
+            // label2
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(20, 13);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(48, 13);
-            this.label3.TabIndex = 20;
-            this.label3.Text = "Tiempo1";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(20, 129);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(55, 13);
+            this.label2.TabIndex = 28;
+            this.label2.Text = "Resultado";
+            // 
+            // selectorTiempo2
+            // 
+            this.selectorTiempo2.Location = new System.Drawing.Point(88, 71);
+            this.selectorTiempo2.Name = "selectorTiempo2";
+            this.selectorTiempo2.Size = new System.Drawing.Size(200, 20);
+            this.selectorTiempo2.TabIndex = 27;
+            // 
+            // selectorTiempo1
+            // 
+            this.selectorTiempo1.Location = new System.Drawing.Point(88, 13);
+            this.selectorTiempo1.Name = "selectorTiempo1";
+            this.selectorTiempo1.Size = new System.Drawing.Size(200, 20);
+            this.selectorTiempo1.TabIndex = 26;
             // 
             // botonProcesarTmp
             // 
@@ -309,35 +324,33 @@
             this.botonCopiarTmp.Text = "Copiar";
             this.botonCopiarTmp.UseVisualStyleBackColor = true;
             // 
-            // selectorTiempo1
+            // label1
             // 
-            this.selectorTiempo1.Location = new System.Drawing.Point(88, 13);
-            this.selectorTiempo1.Name = "selectorTiempo1";
-            this.selectorTiempo1.Size = new System.Drawing.Size(200, 20);
-            this.selectorTiempo1.TabIndex = 26;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(20, 71);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(48, 13);
+            this.label1.TabIndex = 22;
+            this.label1.Text = "Tiempo2";
             // 
-            // selectorTiempo2
+            // label3
             // 
-            this.selectorTiempo2.Location = new System.Drawing.Point(88, 71);
-            this.selectorTiempo2.Name = "selectorTiempo2";
-            this.selectorTiempo2.Size = new System.Drawing.Size(200, 20);
-            this.selectorTiempo2.TabIndex = 27;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(20, 13);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(48, 13);
+            this.label3.TabIndex = 20;
+            this.label3.Text = "Tiempo1";
             // 
-            // cajaResultadoTmp
+            // tabPage3Matematicas
             // 
-            this.cajaResultadoTmp.Location = new System.Drawing.Point(23, 145);
-            this.cajaResultadoTmp.Name = "cajaResultadoTmp";
-            this.cajaResultadoTmp.Size = new System.Drawing.Size(74, 20);
-            this.cajaResultadoTmp.TabIndex = 29;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(20, 129);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(55, 13);
-            this.label2.TabIndex = 28;
-            this.label2.Text = "Resultado";
+            this.tabPage3Matematicas.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3Matematicas.Name = "tabPage3Matematicas";
+            this.tabPage3Matematicas.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3Matematicas.Size = new System.Drawing.Size(612, 316);
+            this.tabPage3Matematicas.TabIndex = 2;
+            this.tabPage3Matematicas.Text = "Matemáticas";
+            this.tabPage3Matematicas.UseVisualStyleBackColor = true;
             // 
             // Principal
             // 
@@ -394,5 +407,6 @@
         private System.Windows.Forms.DateTimePicker selectorTiempo2;
         private System.Windows.Forms.TextBox cajaResultadoTmp;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TabPage tabPage3Matematicas;
     }
 }

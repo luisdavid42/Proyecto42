@@ -1,6 +1,8 @@
 settings Multilinea
 Desplazar Boton Dale
-Crear Boton pegar
+
 agregarle logo
 Llenar View Tiempo
-Crear View Archivos
+
+Matematicas
+Combinaciones de letras y numeros
