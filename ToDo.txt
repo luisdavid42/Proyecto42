@@ -1,5 +1,7 @@
 settings Multilinea
 Desplazar Boton Dale
+Boton Pegar texto
+Boton Eliminar texto
 
 agregarle logo
 Llenar View Tiempo
@@ -11,3 +13,8 @@ Enlistar Numeros hasta k
 Ordenar alfabeticamente
 Contar elementos(lineas)
 Contar caracteres
+
+Eliminar x cantidad de Enter
+
+
+Concatenación: Prefijo y Postfijo
