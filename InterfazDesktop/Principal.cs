@@ -223,5 +223,10 @@ namespace InterfazDesktop
         {
             
         }
+
+        private void tabPage1Strings_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

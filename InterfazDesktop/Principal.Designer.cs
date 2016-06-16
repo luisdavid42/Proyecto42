@@ -60,6 +60,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.tabPage3Matematicas = new System.Windows.Forms.TabPage();
+            this.botonLimpiar = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1Strings.SuspendLayout();
@@ -85,7 +86,7 @@
             // 
             // botonCopiarMS
             // 
-            this.botonCopiarMS.Location = new System.Drawing.Point(420, 270);
+            this.botonCopiarMS.Location = new System.Drawing.Point(424, 270);
             this.botonCopiarMS.Name = "botonCopiarMS";
             this.botonCopiarMS.Size = new System.Drawing.Size(75, 23);
             this.botonCopiarMS.TabIndex = 12;
@@ -104,7 +105,7 @@
             // 
             // botonProcesarMS
             // 
-            this.botonProcesarMS.Location = new System.Drawing.Point(98, 270);
+            this.botonProcesarMS.Location = new System.Drawing.Point(265, 236);
             this.botonProcesarMS.Name = "botonProcesarMS";
             this.botonProcesarMS.Size = new System.Drawing.Size(75, 23);
             this.botonProcesarMS.TabIndex = 10;
@@ -241,6 +242,7 @@
             // 
             // tabPage1Strings
             // 
+            this.tabPage1Strings.Controls.Add(this.botonLimpiar);
             this.tabPage1Strings.Controls.Add(this.cajaEntrada);
             this.tabPage1Strings.Controls.Add(this.cajaAux2);
             this.tabPage1Strings.Controls.Add(this.botonProcesarMS);
@@ -257,6 +259,7 @@
             this.tabPage1Strings.TabIndex = 0;
             this.tabPage1Strings.Text = "Manejo Strings";
             this.tabPage1Strings.UseVisualStyleBackColor = true;
+            this.tabPage1Strings.Click += new System.EventHandler(this.tabPage1Strings_Click);
             // 
             // tabPage2Tiempo
             // 
@@ -352,6 +355,15 @@
             this.tabPage3Matematicas.Text = "Matemáticas";
             this.tabPage3Matematicas.UseVisualStyleBackColor = true;
             // 
+            // botonLimpiar
+            // 
+            this.botonLimpiar.Location = new System.Drawing.Point(98, 270);
+            this.botonLimpiar.Name = "botonLimpiar";
+            this.botonLimpiar.Size = new System.Drawing.Size(75, 23);
+            this.botonLimpiar.TabIndex = 20;
+            this.botonLimpiar.Text = "Limpiar";
+            this.botonLimpiar.UseVisualStyleBackColor = true;
+            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -408,5 +420,6 @@
         private System.Windows.Forms.TextBox cajaResultadoTmp;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TabPage tabPage3Matematicas;
+        private System.Windows.Forms.Button botonLimpiar;
     }
 }
