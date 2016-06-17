@@ -1,0 +1,18 @@
+settings Multilinea
+Boton Pegar texto
+
+agregarle logo
+Llenar View Tiempo
+
+Matematicas
+Combinaciones de letras y numeros
+Enlistar Numeros hasta k
+
+Ordenar alfabeticamente
+Contar elementos(lineas)
+Contar caracteres
+
+Eliminar x cantidad de Enter
+
+
+Concatenación: Prefijo y Postfijo
