@@ -10,7 +10,7 @@ namespace Wiri
     /// <summary>
     /// Estructura representativa de una conversion de caracteres
     /// </summary>
-    public static class Conversion
+    public static class Strings
     {
         /// <summary>
         /// Pone una cadena de caracteres alreves
@@ -106,9 +106,20 @@ namespace Wiri
         public static String InvertirCase(String original)
         {
             String resultado = "";
-            resultado = new String(
-                original.Select(c => char.IsLetter(c) ? (char.IsUpper(c) ?
-                                  char.ToLower(c) : char.ToUpper(c)) : c).ToArray());
+
+            for (int i = 0; i < original.Length; i++)
+            {
+                if (char.IsLower(original[i]))
+                    resultado += char.ToUpper(original[i]);
+                else if (char.IsUpper(original[i]))
+                    resultado += char.ToLower(original[i]);
+                else
+                    resultado += original[i];
+            }
+
+            //resultado = new String(
+            //    original.Select(c => char.IsLetter(c) ? (char.IsUpper(c) ?
+            //                      char.ToLower(c) : char.ToUpper(c)) : c).ToArray());
 
 
             return resultado;
@@ -139,6 +150,50 @@ namespace Wiri
             }
 
             return resultado;
+        }
+
+        /// <summary>
+        /// Retorna el string en formato Montaña Rusa(case alternos)
+        /// </summary>
+        /// <param name="original"></param>
+        /// <returns></returns>
+        public static String MontanaRusa(String original)
+        {
+            String resultado = "";
+
+            for (int i = 0; i < original.Length; i++)
+            {
+                if (i % 2 == 0)
+                    resultado+=char.ToLower(original[i]);
+                else
+                    resultado+=char.ToUpper(original[i]);
+            }
+
+            return resultado;
+        }
+
+        /// <summary>
+        /// Retorna el string en formato Atigereao
+        /// </summary>
+        /// <param name="original"></param>
+        /// <returns></returns>
+        public static String Atigerear(String original)
+        {
+            String resultado = "";
+
+
+            resultado += original + " nobulto";
+            return resultado;
+        }
+
+        public static int CantCaracteres()
+        {
+            return 0;
+        }
+
+        public static int CantLineas()
+        {
+            return 0;
         }
     }
 }

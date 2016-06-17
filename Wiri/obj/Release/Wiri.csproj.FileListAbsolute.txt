@@ -3,3 +3,8 @@ C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\Wiri\bin\Release\W
 C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\Wiri\obj\Release\Wiri.dll
 C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\Wiri\obj\Release\Wiri.pdb
 C:\Users\Liu\documents\visual studio 2013\Projects\Proyecto42\Wiri\obj\Release\Wiri.csprojResolveAssemblyReference.cache
+C:\Users\20125060\Downloads\Proyecto42-master\Wiri\bin\Release\Wiri.dll
+C:\Users\20125060\Downloads\Proyecto42-master\Wiri\bin\Release\Wiri.pdb
+C:\Users\20125060\Downloads\Proyecto42-master\Wiri\obj\Release\Wiri.csprojResolveAssemblyReference.cache
+C:\Users\20125060\Downloads\Proyecto42-master\Wiri\obj\Release\Wiri.dll
+C:\Users\20125060\Downloads\Proyecto42-master\Wiri\obj\Release\Wiri.pdb

@@ -7,3 +7,15 @@ c:\users\liu\documents\visual studio 2013\Projects\Proyecto42\InterfazDesktop\ob
 c:\users\liu\documents\visual studio 2013\Projects\Proyecto42\InterfazDesktop\obj\Debug\InterfazDesktop.csproj.GenerateResource.Cache
 c:\users\liu\documents\visual studio 2013\Projects\Proyecto42\InterfazDesktop\obj\Debug\InterfazDesktop.exe
 c:\users\liu\documents\visual studio 2013\Projects\Proyecto42\InterfazDesktop\obj\Debug\InterfazDesktop.pdb
+C:\Users\20125060\Downloads\Proyecto42-master\InterfazDesktop\bin\Debug\InterfazDesktop.exe.config
+C:\Users\20125060\Downloads\Proyecto42-master\InterfazDesktop\obj\Debug\InterfazDesktop.exe
+C:\Users\20125060\Downloads\Proyecto42-master\InterfazDesktop\obj\Debug\InterfazDesktop.pdb
+C:\Users\20125060\Downloads\Proyecto42-master\InterfazDesktop\bin\Debug\InterfazDesktop.exe
+C:\Users\20125060\Downloads\Proyecto42-master\InterfazDesktop\bin\Debug\InterfazDesktop.pdb
+C:\Users\20125060\Downloads\Proyecto42-master\InterfazDesktop\bin\Debug\Wiri.dll
+C:\Users\20125060\Downloads\Proyecto42-master\InterfazDesktop\bin\Debug\Wiri.pdb
+C:\Users\20125060\Downloads\Proyecto42-master\InterfazDesktop\obj\Debug\InterfazDesktop.csprojResolveAssemblyReference.cache
+C:\Users\20125060\Downloads\Proyecto42-master\InterfazDesktop\obj\Debug\InterfazDesktop.Forms.Bases.FormBase.resources
+C:\Users\20125060\Downloads\Proyecto42-master\InterfazDesktop\obj\Debug\InterfazDesktop.Principal.resources
+C:\Users\20125060\Downloads\Proyecto42-master\InterfazDesktop\obj\Debug\InterfazDesktop.Properties.Resources.resources
+C:\Users\20125060\Downloads\Proyecto42-master\InterfazDesktop\obj\Debug\InterfazDesktop.csproj.GenerateResource.Cache

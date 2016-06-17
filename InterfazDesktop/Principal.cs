@@ -60,21 +60,25 @@ namespace InterfazDesktop
 
             switch (opcion)
             {
-                case Opcion.Alrevesar: resultado = Wiri.Conversion.Alrevesar(entrada);
+                case Opcion.Alrevesar: resultado = Wiri.Strings.Alrevesar(entrada);
                     break;
-                case Opcion.Borrar: resultado = Wiri.Conversion.Borrar(entrada, extra1);
+                case Opcion.Borrar: resultado = Wiri.Strings.Borrar(entrada, extra1);
                     break;
-                case Opcion.Reemplazar: resultado = Wiri.Conversion.Reemplazar(entrada, extra1, extra2);
+                case Opcion.Reemplazar: resultado = Wiri.Strings.Reemplazar(entrada, extra1, extra2);
                     break;
-                case Opcion.Regex: resultado = Wiri.Conversion.Regex(entrada, extra1);
+                case Opcion.Regex: resultado = Wiri.Strings.Regex(entrada, extra1);
                     break;
-                case Opcion.Mayusculizar:resultado =  Wiri.Conversion.Mayusculizar(entrada);
+                case Opcion.Mayusculizar:resultado =  Wiri.Strings.Mayusculizar(entrada);
                     break;
-                case Opcion.Minusculizar: resultado = Wiri.Conversion.Minusculizar(entrada);
+                case Opcion.Minusculizar: resultado = Wiri.Strings.Minusculizar(entrada);
                     break;
-                case Opcion.InvertirCase: resultado = Wiri.Conversion.InvertirCase(entrada);
+                case Opcion.InvertirCase: resultado = Wiri.Strings.InvertirCase(entrada);
                     break;
-                case Opcion.Enumerar: resultado = Wiri.Conversion.Enumerar(entrada);
+                case Opcion.Enumerar: resultado = Wiri.Strings.Enumerar(entrada);
+                    break;
+                case Opcion.MontanaRusa: resultado = Wiri.Strings.MontanaRusa(entrada);
+                    break;
+                case Opcion.Atigerear: resultado = Wiri.Strings.Atigerear(entrada);
                     break;
                 default:
                     break;
@@ -203,6 +207,11 @@ namespace InterfazDesktop
         {
             desplegarPreferencias();
         }
+
+        private void botonLimpiar_Click(object sender, EventArgs e)
+        {
+            cajaEntrada.Clear();
+        }
         #endregion
 
         enum Opcion
@@ -228,5 +237,7 @@ namespace InterfazDesktop
         {
 
         }
+
+        
     }
 }

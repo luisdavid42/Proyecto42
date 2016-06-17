@@ -50,6 +50,7 @@
             this.labelCajita2 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1Strings = new System.Windows.Forms.TabPage();
+            this.botonLimpiar = new System.Windows.Forms.Button();
             this.tabPage2Tiempo = new System.Windows.Forms.TabPage();
             this.cajaResultadoTmp = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -60,7 +61,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.tabPage3Matematicas = new System.Windows.Forms.TabPage();
-            this.botonLimpiar = new System.Windows.Forms.Button();
+            this.tabPage4Archivos = new System.Windows.Forms.TabPage();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1Strings.SuspendLayout();
@@ -234,6 +235,7 @@
             this.tabControl1.Controls.Add(this.tabPage1Strings);
             this.tabControl1.Controls.Add(this.tabPage2Tiempo);
             this.tabControl1.Controls.Add(this.tabPage3Matematicas);
+            this.tabControl1.Controls.Add(this.tabPage4Archivos);
             this.tabControl1.Location = new System.Drawing.Point(12, 38);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -260,6 +262,16 @@
             this.tabPage1Strings.Text = "Manejo Strings";
             this.tabPage1Strings.UseVisualStyleBackColor = true;
             this.tabPage1Strings.Click += new System.EventHandler(this.tabPage1Strings_Click);
+            // 
+            // botonLimpiar
+            // 
+            this.botonLimpiar.Location = new System.Drawing.Point(98, 270);
+            this.botonLimpiar.Name = "botonLimpiar";
+            this.botonLimpiar.Size = new System.Drawing.Size(75, 23);
+            this.botonLimpiar.TabIndex = 20;
+            this.botonLimpiar.Text = "Limpiar";
+            this.botonLimpiar.UseVisualStyleBackColor = true;
+            this.botonLimpiar.Click += new System.EventHandler(this.botonLimpiar_Click);
             // 
             // tabPage2Tiempo
             // 
@@ -355,14 +367,15 @@
             this.tabPage3Matematicas.Text = "Matemáticas";
             this.tabPage3Matematicas.UseVisualStyleBackColor = true;
             // 
-            // botonLimpiar
+            // tabPage4Archivos
             // 
-            this.botonLimpiar.Location = new System.Drawing.Point(98, 270);
-            this.botonLimpiar.Name = "botonLimpiar";
-            this.botonLimpiar.Size = new System.Drawing.Size(75, 23);
-            this.botonLimpiar.TabIndex = 20;
-            this.botonLimpiar.Text = "Limpiar";
-            this.botonLimpiar.UseVisualStyleBackColor = true;
+            this.tabPage4Archivos.Location = new System.Drawing.Point(4, 22);
+            this.tabPage4Archivos.Name = "tabPage4Archivos";
+            this.tabPage4Archivos.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4Archivos.Size = new System.Drawing.Size(612, 316);
+            this.tabPage4Archivos.TabIndex = 3;
+            this.tabPage4Archivos.Text = "Archivos";
+            this.tabPage4Archivos.UseVisualStyleBackColor = true;
             // 
             // Principal
             // 
@@ -421,5 +434,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TabPage tabPage3Matematicas;
         private System.Windows.Forms.Button botonLimpiar;
+        private System.Windows.Forms.TabPage tabPage4Archivos;
     }
 }

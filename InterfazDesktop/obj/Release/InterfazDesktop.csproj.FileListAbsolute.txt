@@ -10,3 +10,15 @@ C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazDesktop\ob
 C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazDesktop\bin\Release\Wiri.dll
 C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazDesktop\bin\Release\Wiri.pdb
 C:\Users\Liu\documents\visual studio 2013\Projects\Proyecto42\InterfazDesktop\obj\Release\InterfazDesktop.Forms.Bases.FormBase.resources
+C:\Users\20125060\Downloads\Proyecto42-master\InterfazDesktop\bin\Release\InterfazDesktop.exe.config
+C:\Users\20125060\Downloads\Proyecto42-master\InterfazDesktop\obj\Release\InterfazDesktop.exe
+C:\Users\20125060\Downloads\Proyecto42-master\InterfazDesktop\obj\Release\InterfazDesktop.pdb
+C:\Users\20125060\Downloads\Proyecto42-master\InterfazDesktop\bin\Release\InterfazDesktop.exe
+C:\Users\20125060\Downloads\Proyecto42-master\InterfazDesktop\bin\Release\InterfazDesktop.pdb
+C:\Users\20125060\Downloads\Proyecto42-master\InterfazDesktop\bin\Release\Wiri.dll
+C:\Users\20125060\Downloads\Proyecto42-master\InterfazDesktop\bin\Release\Wiri.pdb
+C:\Users\20125060\Downloads\Proyecto42-master\InterfazDesktop\obj\Release\InterfazDesktop.csprojResolveAssemblyReference.cache
+C:\Users\20125060\Downloads\Proyecto42-master\InterfazDesktop\obj\Release\InterfazDesktop.Forms.Bases.FormBase.resources
+C:\Users\20125060\Downloads\Proyecto42-master\InterfazDesktop\obj\Release\InterfazDesktop.Principal.resources
+C:\Users\20125060\Downloads\Proyecto42-master\InterfazDesktop\obj\Release\InterfazDesktop.Properties.Resources.resources
+C:\Users\20125060\Downloads\Proyecto42-master\InterfazDesktop\obj\Release\InterfazDesktop.csproj.GenerateResource.Cache

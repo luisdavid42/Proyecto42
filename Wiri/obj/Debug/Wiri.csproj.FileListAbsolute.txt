@@ -1,0 +1,4 @@
+C:\Users\20125060\Downloads\Proyecto42-master\Wiri\bin\Debug\Wiri.dll
+C:\Users\20125060\Downloads\Proyecto42-master\Wiri\bin\Debug\Wiri.pdb
+C:\Users\20125060\Downloads\Proyecto42-master\Wiri\obj\Debug\Wiri.dll
+C:\Users\20125060\Downloads\Proyecto42-master\Wiri\obj\Debug\Wiri.pdb
