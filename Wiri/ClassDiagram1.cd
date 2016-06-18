@@ -1,10 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Wiri.Conversion">
-    <Position X="2.25" Y="1.5" Width="1.5" />
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Wiri.Archivos">
+    <Position X="1.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAQAAAAAAgABAAAABAAAAAAEAAAAAAAAAEAAQAAAAA=</HashCode>
-      <FileName>Conversion.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Archivos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wiri.Matematicas">
+    <Position X="3" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEBAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAgEA=</HashCode>
+      <FileName>Matematicas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wiri.Strings">
+    <Position X="1.25" Y="2.5" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAACCAAgABACEoBAAAAAAEQAAQAAAAAUAAQAAABA=</HashCode>
+      <FileName>Strings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wiri.Tiempo">
+    <Position X="1.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tiempo.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

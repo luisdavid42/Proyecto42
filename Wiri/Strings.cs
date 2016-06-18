@@ -195,5 +195,54 @@ namespace Wiri
         {
             return 0;
         }
+
+
+        public static String OrdenarAsc(String original)
+        {
+            String resultado = "";
+
+
+            
+            return resultado;
+        }
+
+        public static String OrdenarDesc(String original)
+        {
+            String resultado = "";
+
+
+
+            return resultado;
+        }
+
+        public static String Desordenar(String original)
+        {
+            String resultado = "";
+
+
+
+            return resultado;
+        }
+
+        public static int ContarChar()
+        {
+            return 0;
+        }
+
+        public static int ContarChar(char c)
+        {
+            return 0;
+        }
+
+        public static int ContarPalabras()
+        {
+            return 0;
+        }
+
+        public static int ContarPalabras(String s)
+        {
+
+            return 0;
+        }
     }
 }
