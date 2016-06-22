@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.cajaSalida = new System.Windows.Forms.TextBox();
-            this.cajaEntrada = new System.Windows.Forms.TextBox();
-            this.botonCopiarMS = new System.Windows.Forms.Button();
-            this.Selector = new System.Windows.Forms.ComboBox();
-            this.botonProcesarMS = new System.Windows.Forms.Button();
+            this.cajaSalidaManejoStrings = new System.Windows.Forms.TextBox();
+            this.cajaEntradaManejoStrings = new System.Windows.Forms.TextBox();
+            this.botonCopiarManejoStrings = new System.Windows.Forms.Button();
+            this.selectorManejoStrings = new System.Windows.Forms.ComboBox();
+            this.botonProcesarManejoStrings = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.wiriToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -50,69 +50,85 @@
             this.labelCajita2 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1Strings = new System.Windows.Forms.TabPage();
-            this.botonLimpiar = new System.Windows.Forms.Button();
+            this.botonLimpiarManejoStrings = new System.Windows.Forms.Button();
             this.tabPage2Tiempo = new System.Windows.Forms.TabPage();
             this.cajaResultadoTmp = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.selectorTiempo2 = new System.Windows.Forms.DateTimePicker();
-            this.selectorTiempo1 = new System.Windows.Forms.DateTimePicker();
+            this.tiempo2 = new System.Windows.Forms.DateTimePicker();
+            this.tiempo1 = new System.Windows.Forms.DateTimePicker();
             this.botonProcesarTmp = new System.Windows.Forms.Button();
             this.botonCopiarTmp = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.tabPage3Matematicas = new System.Windows.Forms.TabPage();
             this.tabPage4Archivos = new System.Windows.Forms.TabPage();
+            this.label4 = new System.Windows.Forms.Label();
+            this.cajaHoras = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.cajaMinutos = new System.Windows.Forms.TextBox();
+            this.cajaSegundos = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.selectorTiempo = new System.Windows.Forms.ComboBox();
+            this.cajaEntradaMat = new System.Windows.Forms.TextBox();
+            this.botonProcesarMat = new System.Windows.Forms.Button();
+            this.selectorMat = new System.Windows.Forms.ComboBox();
+            this.botonCopiarMat = new System.Windows.Forms.Button();
+            this.cajaSalidaMat = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1Strings.SuspendLayout();
             this.tabPage2Tiempo.SuspendLayout();
+            this.tabPage3Matematicas.SuspendLayout();
             this.SuspendLayout();
             // 
-            // cajaSalida
+            // cajaSalidaManejoStrings
             // 
-            this.cajaSalida.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.cajaSalida.Location = new System.Drawing.Point(356, 16);
-            this.cajaSalida.Multiline = true;
-            this.cajaSalida.Name = "cajaSalida";
-            this.cajaSalida.Size = new System.Drawing.Size(222, 233);
-            this.cajaSalida.TabIndex = 14;
+            this.cajaSalidaManejoStrings.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.cajaSalidaManejoStrings.Location = new System.Drawing.Point(356, 16);
+            this.cajaSalidaManejoStrings.Multiline = true;
+            this.cajaSalidaManejoStrings.Name = "cajaSalidaManejoStrings";
+            this.cajaSalidaManejoStrings.Size = new System.Drawing.Size(222, 233);
+            this.cajaSalidaManejoStrings.TabIndex = 14;
             // 
-            // cajaEntrada
+            // cajaEntradaManejoStrings
             // 
-            this.cajaEntrada.Location = new System.Drawing.Point(28, 16);
-            this.cajaEntrada.Multiline = true;
-            this.cajaEntrada.Name = "cajaEntrada";
-            this.cajaEntrada.Size = new System.Drawing.Size(222, 233);
-            this.cajaEntrada.TabIndex = 13;
+            this.cajaEntradaManejoStrings.Location = new System.Drawing.Point(28, 16);
+            this.cajaEntradaManejoStrings.Multiline = true;
+            this.cajaEntradaManejoStrings.Name = "cajaEntradaManejoStrings";
+            this.cajaEntradaManejoStrings.Size = new System.Drawing.Size(222, 233);
+            this.cajaEntradaManejoStrings.TabIndex = 13;
             // 
-            // botonCopiarMS
+            // botonCopiarManejoStrings
             // 
-            this.botonCopiarMS.Location = new System.Drawing.Point(424, 270);
-            this.botonCopiarMS.Name = "botonCopiarMS";
-            this.botonCopiarMS.Size = new System.Drawing.Size(75, 23);
-            this.botonCopiarMS.TabIndex = 12;
-            this.botonCopiarMS.Text = "Copiar";
-            this.botonCopiarMS.UseVisualStyleBackColor = true;
-            this.botonCopiarMS.Click += new System.EventHandler(this.botonCopiar_Click);
+            this.botonCopiarManejoStrings.Location = new System.Drawing.Point(424, 270);
+            this.botonCopiarManejoStrings.Name = "botonCopiarManejoStrings";
+            this.botonCopiarManejoStrings.Size = new System.Drawing.Size(75, 23);
+            this.botonCopiarManejoStrings.TabIndex = 12;
+            this.botonCopiarManejoStrings.Text = "Copiar";
+            this.botonCopiarManejoStrings.UseVisualStyleBackColor = true;
+            this.botonCopiarManejoStrings.Click += new System.EventHandler(this.botonCopiar_Click);
             // 
-            // Selector
+            // selectorManejoStrings
             // 
-            this.Selector.FormattingEnabled = true;
-            this.Selector.Location = new System.Drawing.Point(247, 270);
-            this.Selector.Name = "Selector";
-            this.Selector.Size = new System.Drawing.Size(111, 21);
-            this.Selector.TabIndex = 11;
-            this.Selector.SelectedIndexChanged += new System.EventHandler(this.Selector_SelectedIndexChanged);
+            this.selectorManejoStrings.FormattingEnabled = true;
+            this.selectorManejoStrings.Location = new System.Drawing.Point(247, 270);
+            this.selectorManejoStrings.Name = "selectorManejoStrings";
+            this.selectorManejoStrings.Size = new System.Drawing.Size(111, 21);
+            this.selectorManejoStrings.TabIndex = 11;
+            this.selectorManejoStrings.SelectedIndexChanged += new System.EventHandler(this.Selector_SelectedIndexChanged);
             // 
-            // botonProcesarMS
+            // botonProcesarManejoStrings
             // 
-            this.botonProcesarMS.Location = new System.Drawing.Point(265, 236);
-            this.botonProcesarMS.Name = "botonProcesarMS";
-            this.botonProcesarMS.Size = new System.Drawing.Size(75, 23);
-            this.botonProcesarMS.TabIndex = 10;
-            this.botonProcesarMS.Text = "Dale";
-            this.botonProcesarMS.UseVisualStyleBackColor = true;
-            this.botonProcesarMS.Click += new System.EventHandler(this.botonProcesar_Click);
+            this.botonProcesarManejoStrings.Location = new System.Drawing.Point(265, 236);
+            this.botonProcesarManejoStrings.Name = "botonProcesarManejoStrings";
+            this.botonProcesarManejoStrings.Size = new System.Drawing.Size(75, 23);
+            this.botonProcesarManejoStrings.TabIndex = 10;
+            this.botonProcesarManejoStrings.Text = "Dale";
+            this.botonProcesarManejoStrings.UseVisualStyleBackColor = true;
+            this.botonProcesarManejoStrings.Click += new System.EventHandler(this.botonProcesar_Click);
             // 
             // menuStrip1
             // 
@@ -244,16 +260,16 @@
             // 
             // tabPage1Strings
             // 
-            this.tabPage1Strings.Controls.Add(this.botonLimpiar);
-            this.tabPage1Strings.Controls.Add(this.cajaEntrada);
+            this.tabPage1Strings.Controls.Add(this.botonLimpiarManejoStrings);
+            this.tabPage1Strings.Controls.Add(this.cajaEntradaManejoStrings);
             this.tabPage1Strings.Controls.Add(this.cajaAux2);
-            this.tabPage1Strings.Controls.Add(this.botonProcesarMS);
+            this.tabPage1Strings.Controls.Add(this.botonProcesarManejoStrings);
             this.tabPage1Strings.Controls.Add(this.labelCajita2);
-            this.tabPage1Strings.Controls.Add(this.Selector);
+            this.tabPage1Strings.Controls.Add(this.selectorManejoStrings);
             this.tabPage1Strings.Controls.Add(this.cajaAux1);
-            this.tabPage1Strings.Controls.Add(this.botonCopiarMS);
+            this.tabPage1Strings.Controls.Add(this.botonCopiarManejoStrings);
             this.tabPage1Strings.Controls.Add(this.labelCajita1);
-            this.tabPage1Strings.Controls.Add(this.cajaSalida);
+            this.tabPage1Strings.Controls.Add(this.cajaSalidaManejoStrings);
             this.tabPage1Strings.Location = new System.Drawing.Point(4, 22);
             this.tabPage1Strings.Name = "tabPage1Strings";
             this.tabPage1Strings.Padding = new System.Windows.Forms.Padding(3);
@@ -263,22 +279,32 @@
             this.tabPage1Strings.UseVisualStyleBackColor = true;
             this.tabPage1Strings.Click += new System.EventHandler(this.tabPage1Strings_Click);
             // 
-            // botonLimpiar
+            // botonLimpiarManejoStrings
             // 
-            this.botonLimpiar.Location = new System.Drawing.Point(98, 270);
-            this.botonLimpiar.Name = "botonLimpiar";
-            this.botonLimpiar.Size = new System.Drawing.Size(75, 23);
-            this.botonLimpiar.TabIndex = 20;
-            this.botonLimpiar.Text = "Limpiar";
-            this.botonLimpiar.UseVisualStyleBackColor = true;
-            this.botonLimpiar.Click += new System.EventHandler(this.botonLimpiar_Click);
+            this.botonLimpiarManejoStrings.Location = new System.Drawing.Point(98, 270);
+            this.botonLimpiarManejoStrings.Name = "botonLimpiarManejoStrings";
+            this.botonLimpiarManejoStrings.Size = new System.Drawing.Size(75, 23);
+            this.botonLimpiarManejoStrings.TabIndex = 20;
+            this.botonLimpiarManejoStrings.Text = "Limpiar";
+            this.botonLimpiarManejoStrings.UseVisualStyleBackColor = true;
+            this.botonLimpiarManejoStrings.Click += new System.EventHandler(this.botonLimpiar_Click);
             // 
             // tabPage2Tiempo
             // 
+            this.tabPage2Tiempo.Controls.Add(this.selectorTiempo);
+            this.tabPage2Tiempo.Controls.Add(this.label9);
+            this.tabPage2Tiempo.Controls.Add(this.label8);
+            this.tabPage2Tiempo.Controls.Add(this.label7);
+            this.tabPage2Tiempo.Controls.Add(this.cajaSegundos);
+            this.tabPage2Tiempo.Controls.Add(this.label6);
+            this.tabPage2Tiempo.Controls.Add(this.cajaMinutos);
+            this.tabPage2Tiempo.Controls.Add(this.label5);
+            this.tabPage2Tiempo.Controls.Add(this.cajaHoras);
+            this.tabPage2Tiempo.Controls.Add(this.label4);
             this.tabPage2Tiempo.Controls.Add(this.cajaResultadoTmp);
             this.tabPage2Tiempo.Controls.Add(this.label2);
-            this.tabPage2Tiempo.Controls.Add(this.selectorTiempo2);
-            this.tabPage2Tiempo.Controls.Add(this.selectorTiempo1);
+            this.tabPage2Tiempo.Controls.Add(this.tiempo2);
+            this.tabPage2Tiempo.Controls.Add(this.tiempo1);
             this.tabPage2Tiempo.Controls.Add(this.botonProcesarTmp);
             this.tabPage2Tiempo.Controls.Add(this.botonCopiarTmp);
             this.tabPage2Tiempo.Controls.Add(this.label1);
@@ -293,7 +319,7 @@
             // 
             // cajaResultadoTmp
             // 
-            this.cajaResultadoTmp.Location = new System.Drawing.Point(23, 145);
+            this.cajaResultadoTmp.Location = new System.Drawing.Point(214, 223);
             this.cajaResultadoTmp.Name = "cajaResultadoTmp";
             this.cajaResultadoTmp.Size = new System.Drawing.Size(74, 20);
             this.cajaResultadoTmp.TabIndex = 29;
@@ -301,25 +327,26 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(20, 129);
+            this.label2.Location = new System.Drawing.Point(211, 207);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(55, 13);
             this.label2.TabIndex = 28;
             this.label2.Text = "Resultado";
             // 
-            // selectorTiempo2
+            // tiempo2
             // 
-            this.selectorTiempo2.Location = new System.Drawing.Point(88, 71);
-            this.selectorTiempo2.Name = "selectorTiempo2";
-            this.selectorTiempo2.Size = new System.Drawing.Size(200, 20);
-            this.selectorTiempo2.TabIndex = 27;
+            this.tiempo2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.tiempo2.Location = new System.Drawing.Point(88, 71);
+            this.tiempo2.Name = "tiempo2";
+            this.tiempo2.Size = new System.Drawing.Size(200, 20);
+            this.tiempo2.TabIndex = 27;
             // 
-            // selectorTiempo1
+            // tiempo1
             // 
-            this.selectorTiempo1.Location = new System.Drawing.Point(88, 13);
-            this.selectorTiempo1.Name = "selectorTiempo1";
-            this.selectorTiempo1.Size = new System.Drawing.Size(200, 20);
-            this.selectorTiempo1.TabIndex = 26;
+            this.tiempo1.Location = new System.Drawing.Point(88, 13);
+            this.tiempo1.Name = "tiempo1";
+            this.tiempo1.Size = new System.Drawing.Size(200, 20);
+            this.tiempo1.TabIndex = 26;
             // 
             // botonProcesarTmp
             // 
@@ -359,6 +386,11 @@
             // 
             // tabPage3Matematicas
             // 
+            this.tabPage3Matematicas.Controls.Add(this.cajaEntradaMat);
+            this.tabPage3Matematicas.Controls.Add(this.botonProcesarMat);
+            this.tabPage3Matematicas.Controls.Add(this.selectorMat);
+            this.tabPage3Matematicas.Controls.Add(this.botonCopiarMat);
+            this.tabPage3Matematicas.Controls.Add(this.cajaSalidaMat);
             this.tabPage3Matematicas.Location = new System.Drawing.Point(4, 22);
             this.tabPage3Matematicas.Name = "tabPage3Matematicas";
             this.tabPage3Matematicas.Padding = new System.Windows.Forms.Padding(3);
@@ -377,6 +409,133 @@
             this.tabPage4Archivos.Text = "Archivos";
             this.tabPage4Archivos.UseVisualStyleBackColor = true;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(85, 121);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(30, 13);
+            this.label4.TabIndex = 30;
+            this.label4.Text = "Hora";
+            // 
+            // cajaHoras
+            // 
+            this.cajaHoras.Location = new System.Drawing.Point(88, 147);
+            this.cajaHoras.Name = "cajaHoras";
+            this.cajaHoras.Size = new System.Drawing.Size(32, 20);
+            this.cajaHoras.TabIndex = 31;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(126, 150);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(10, 13);
+            this.label5.TabIndex = 32;
+            this.label5.Text = ":";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(180, 150);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(10, 13);
+            this.label6.TabIndex = 34;
+            this.label6.Text = ":";
+            // 
+            // cajaMinutos
+            // 
+            this.cajaMinutos.Location = new System.Drawing.Point(142, 147);
+            this.cajaMinutos.Name = "cajaMinutos";
+            this.cajaMinutos.Size = new System.Drawing.Size(32, 20);
+            this.cajaMinutos.TabIndex = 33;
+            // 
+            // cajaSegundos
+            // 
+            this.cajaSegundos.Location = new System.Drawing.Point(196, 147);
+            this.cajaSegundos.Name = "cajaSegundos";
+            this.cajaSegundos.Size = new System.Drawing.Size(32, 20);
+            this.cajaSegundos.TabIndex = 35;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(144, 121);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(29, 13);
+            this.label7.TabIndex = 36;
+            this.label7.Text = "Mins";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(199, 121);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(31, 13);
+            this.label8.TabIndex = 37;
+            this.label8.Text = "Segs";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(18, 147);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(50, 13);
+            this.label9.TabIndex = 38;
+            this.label9.Text = "Duración";
+            // 
+            // selectorTiempo
+            // 
+            this.selectorTiempo.FormattingEnabled = true;
+            this.selectorTiempo.Location = new System.Drawing.Point(284, 139);
+            this.selectorTiempo.Name = "selectorTiempo";
+            this.selectorTiempo.Size = new System.Drawing.Size(121, 21);
+            this.selectorTiempo.TabIndex = 39;
+            // 
+            // cajaEntradaMat
+            // 
+            this.cajaEntradaMat.Location = new System.Drawing.Point(31, 20);
+            this.cajaEntradaMat.Multiline = true;
+            this.cajaEntradaMat.Name = "cajaEntradaMat";
+            this.cajaEntradaMat.Size = new System.Drawing.Size(222, 233);
+            this.cajaEntradaMat.TabIndex = 18;
+            // 
+            // botonProcesarMat
+            // 
+            this.botonProcesarMat.Location = new System.Drawing.Point(268, 240);
+            this.botonProcesarMat.Name = "botonProcesarMat";
+            this.botonProcesarMat.Size = new System.Drawing.Size(75, 23);
+            this.botonProcesarMat.TabIndex = 15;
+            this.botonProcesarMat.Text = "Dale";
+            this.botonProcesarMat.UseVisualStyleBackColor = true;
+            this.botonProcesarMat.Click += new System.EventHandler(this.botonProcesarMat_Click);
+            // 
+            // selectorMat
+            // 
+            this.selectorMat.FormattingEnabled = true;
+            this.selectorMat.Location = new System.Drawing.Point(250, 274);
+            this.selectorMat.Name = "selectorMat";
+            this.selectorMat.Size = new System.Drawing.Size(111, 21);
+            this.selectorMat.TabIndex = 16;
+            // 
+            // botonCopiarMat
+            // 
+            this.botonCopiarMat.Location = new System.Drawing.Point(427, 274);
+            this.botonCopiarMat.Name = "botonCopiarMat";
+            this.botonCopiarMat.Size = new System.Drawing.Size(75, 23);
+            this.botonCopiarMat.TabIndex = 17;
+            this.botonCopiarMat.Text = "Copiar";
+            this.botonCopiarMat.UseVisualStyleBackColor = true;
+            // 
+            // cajaSalidaMat
+            // 
+            this.cajaSalidaMat.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.cajaSalidaMat.Location = new System.Drawing.Point(359, 20);
+            this.cajaSalidaMat.Multiline = true;
+            this.cajaSalidaMat.Name = "cajaSalidaMat";
+            this.cajaSalidaMat.Size = new System.Drawing.Size(222, 233);
+            this.cajaSalidaMat.TabIndex = 19;
+            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -394,6 +553,8 @@
             this.tabPage1Strings.PerformLayout();
             this.tabPage2Tiempo.ResumeLayout(false);
             this.tabPage2Tiempo.PerformLayout();
+            this.tabPage3Matematicas.ResumeLayout(false);
+            this.tabPage3Matematicas.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -401,11 +562,11 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox cajaSalida;
-        private System.Windows.Forms.TextBox cajaEntrada;
-        private System.Windows.Forms.Button botonCopiarMS;
-        private System.Windows.Forms.ComboBox Selector;
-        private System.Windows.Forms.Button botonProcesarMS;
+        private System.Windows.Forms.TextBox cajaSalidaManejoStrings;
+        private System.Windows.Forms.TextBox cajaEntradaManejoStrings;
+        private System.Windows.Forms.Button botonCopiarManejoStrings;
+        private System.Windows.Forms.ComboBox selectorManejoStrings;
+        private System.Windows.Forms.Button botonProcesarManejoStrings;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem wiriToolStripMenuItem;
@@ -428,12 +589,27 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button botonProcesarTmp;
         private System.Windows.Forms.Button botonCopiarTmp;
-        private System.Windows.Forms.DateTimePicker selectorTiempo1;
-        private System.Windows.Forms.DateTimePicker selectorTiempo2;
+        private System.Windows.Forms.DateTimePicker tiempo1;
+        private System.Windows.Forms.DateTimePicker tiempo2;
         private System.Windows.Forms.TextBox cajaResultadoTmp;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TabPage tabPage3Matematicas;
-        private System.Windows.Forms.Button botonLimpiar;
+        private System.Windows.Forms.Button botonLimpiarManejoStrings;
         private System.Windows.Forms.TabPage tabPage4Archivos;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox cajaSegundos;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox cajaMinutos;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox cajaHoras;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ComboBox selectorTiempo;
+        private System.Windows.Forms.TextBox cajaEntradaMat;
+        private System.Windows.Forms.Button botonProcesarMat;
+        private System.Windows.Forms.ComboBox selectorMat;
+        private System.Windows.Forms.Button botonCopiarMat;
+        private System.Windows.Forms.TextBox cajaSalidaMat;
     }
 }

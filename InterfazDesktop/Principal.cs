@@ -19,7 +19,8 @@ namespace InterfazDesktop
             Load();
             this.Text = "Jugando con Strings V" + Application.ProductVersion;
 
-            selectorTiempo1.Format = DateTimePickerFormat.Time;
+            tiempo1.Format = DateTimePickerFormat.Long;
+            tiempo2.Format = DateTimePickerFormat.Short;
             //selectorTiempo.ShowUpDown = true;
         }
 
@@ -30,7 +31,9 @@ namespace InterfazDesktop
         /// </summary>
         void Load()
         {
-            Selector.DataSource = Enum.GetValues(typeof(Opcion));
+            selectorManejoStrings.DataSource = Enum.GetValues(typeof(ManejoStringsOpcion));
+            selectorTiempo.DataSource = Enum.GetValues(typeof(TiempoOpcion));
+            selectorTiempo.DataSource = Enum.GetValues(typeof(MatematicasOpcion));
         }
 
         /// <summary>
@@ -44,9 +47,9 @@ namespace InterfazDesktop
         /// <summary>
         /// Copia el contenido del resultado al clipboard
         /// </summary>
-        void Copiar()
+        void CopiarManejoStrings()
         {
-            Clipboard.SetText(cajaSalida.Text);
+            Clipboard.SetText(cajaSalidaManejoStrings.Text);
         }
 
         /// <summary>
@@ -54,40 +57,88 @@ namespace InterfazDesktop
         /// </summary>
         /// <param name="entrada">Texto a procesar</param>
         /// <param name="opcion">Indice seleccionado del ComboBox</param>
-        void Procesar(String entrada, Opcion opcion, String extra1, String extra2)
+        void ProcesarManejoStrings(String entrada, ManejoStringsOpcion opcion, String extra1, String extra2)
         {
             String resultado = "";
 
             switch (opcion)
             {
-                case Opcion.Alrevesar: resultado = Wiri.Strings.Alrevesar(entrada);
+                case ManejoStringsOpcion.Alrevesar: resultado = Wiri.Strings.Alrevesar(entrada);
                     break;
-                case Opcion.Borrar: resultado = Wiri.Strings.Borrar(entrada, extra1);
+                case ManejoStringsOpcion.Borrar: resultado = Wiri.Strings.Borrar(entrada, extra1);
                     break;
-                case Opcion.Reemplazar: resultado = Wiri.Strings.Reemplazar(entrada, extra1, extra2);
+                case ManejoStringsOpcion.Reemplazar: resultado = Wiri.Strings.Reemplazar(entrada, extra1, extra2);
                     break;
-                case Opcion.Regex: resultado = Wiri.Strings.Regex(entrada, extra1);
+                case ManejoStringsOpcion.Regex: resultado = Wiri.Strings.Regex(entrada, extra1);
                     break;
-                case Opcion.Mayusculizar:resultado =  Wiri.Strings.Mayusculizar(entrada);
+                case ManejoStringsOpcion.Mayusculizar:resultado =  Wiri.Strings.Mayusculizar(entrada);
                     break;
-                case Opcion.Minusculizar: resultado = Wiri.Strings.Minusculizar(entrada);
+                case ManejoStringsOpcion.Minusculizar: resultado = Wiri.Strings.Minusculizar(entrada);
                     break;
-                case Opcion.InvertirCase: resultado = Wiri.Strings.InvertirCase(entrada);
+                case ManejoStringsOpcion.InvertirCase: resultado = Wiri.Strings.InvertirCase(entrada);
                     break;
-                case Opcion.Enumerar: resultado = Wiri.Strings.Enumerar(entrada);
+                case ManejoStringsOpcion.Enumerar: resultado = Wiri.Strings.Enumerar(entrada);
                     break;
-                case Opcion.MontanaRusa: resultado = Wiri.Strings.MontanaRusa(entrada);
+                case ManejoStringsOpcion.MontanaRusa: resultado = Wiri.Strings.MontanaRusa(entrada);
                     break;
-                case Opcion.Atigerear: resultado = Wiri.Strings.Atigerear(entrada);
+                case ManejoStringsOpcion.Atigerear: resultado = Wiri.Strings.Atigerear(entrada);
                     break;
                 default:
                     break;
             }
 
-            cajaSalida.Text = resultado;
+            cajaSalidaManejoStrings.Text = resultado;
         }
 
-         #region Mostrar/Ocultar Componentes
+        /// <summary>
+        /// Ejecuta una opción del menu de conversión
+        /// </summary>
+        /// <param name="entrada">Texto a procesar</param>
+        /// <param name="opcion">Indice seleccionado del ComboBox</param>
+        void ProcesarTiempo(String entrada, TiempoOpcion opcion)
+        {
+            String resultado = "";
+
+            switch (opcion)
+            {
+                case TiempoOpcion.Sumar:
+                    resultado = "";
+                    break;
+
+                default:
+                    break;
+            }
+
+            //visualizacion de resultado
+            //cajaSalidaManejoStrings.Text = resultado;
+        }
+
+        /// <summary>
+        /// Ejecuta una opción del menu de conversión
+        /// </summary>
+        /// <param name="entrada">Texto a procesar</param>
+        /// <param name="opcion">Indice seleccionado del ComboBox</param>
+        void ProcesarMatematicas(String entrada, MatematicasOpcion opcion)
+        {
+            String resultado = "";
+
+            switch (opcion)
+            {
+                case MatematicasOpcion.Permutacion:
+                    char[] arr = entrada.ToCharArray();
+                    Wiri.Matematicas.GetPer(arr);
+                    resultado = arr.ToString();
+                    break;
+
+                default:
+                    break;
+            }
+
+            //visualizacion de resultado
+            //cajaSalidaManejoStrings.Text = resultado;
+        }
+
+        #region Mostrar/Ocultar Componentes
         void MostrarCajita1(bool va, string label)
         {
             if (va)
@@ -130,21 +181,21 @@ namespace InterfazDesktop
         /// Decide qué cajitas se muestran.
         /// </summary>
         /// <param name="opcion">Indice seleccionado del ComboBox</param>
-        void DecidirCajitasExtra(Opcion opcion)
+        void DecidirCajitasExtra(ManejoStringsOpcion opcion)
         {
             switch (opcion)
             {
-                case Opcion.Alrevesar: MostrarCajitasExtra(false, false, "", "");
+                case ManejoStringsOpcion.Alrevesar: MostrarCajitasExtra(false, false, "", "");
                     break;
-                case Opcion.Borrar: MostrarCajitasExtra(true, false, "Texto a Borrar", "");
+                case ManejoStringsOpcion.Borrar: MostrarCajitasExtra(true, false, "Texto a Borrar", "");
                     break;
-                case Opcion.Reemplazar: MostrarCajitasExtra(true, true, "A Buscar", "A Reemplazar");
+                case ManejoStringsOpcion.Reemplazar: MostrarCajitasExtra(true, true, "A Buscar", "A Reemplazar");
                     break;
-                case Opcion.Regex: MostrarCajitasExtra(true, false, "Regex a Aplicar", "");
+                case ManejoStringsOpcion.Regex: MostrarCajitasExtra(true, false, "Regex a Aplicar", "");
                     break;
-                case Opcion.Mayusculizar: MostrarCajitasExtra(false, false, "", "");
+                case ManejoStringsOpcion.Mayusculizar: MostrarCajitasExtra(false, false, "", "");
                     break;
-                case Opcion.Minusculizar: MostrarCajitasExtra(false, false, "", "");
+                case ManejoStringsOpcion.Minusculizar: MostrarCajitasExtra(false, false, "", "");
                     break;
                 default:
                     break;
@@ -177,17 +228,17 @@ namespace InterfazDesktop
         
         private void botonCopiar_Click(object sender, EventArgs e)
         {
-            Copiar();
+            CopiarManejoStrings();
         }
 
         private void botonProcesar_Click(object sender, EventArgs e)
         {
-            Procesar(cajaEntrada.Text,(Opcion)Selector.SelectedIndex,cajaAux1.Text,cajaAux2.Text);
+            ProcesarManejoStrings(cajaEntradaManejoStrings.Text,(ManejoStringsOpcion)selectorManejoStrings.SelectedIndex,cajaAux1.Text,cajaAux2.Text);
         }
 
         private void Selector_SelectedIndexChanged(object sender, EventArgs e)
         {
-            DecidirCajitasExtra((Opcion)Selector.SelectedIndex);
+            DecidirCajitasExtra((ManejoStringsOpcion)selectorManejoStrings.SelectedIndex);
             
         }
 
@@ -195,7 +246,7 @@ namespace InterfazDesktop
         {
             saveFileDialog1.ShowDialog();
             string nombre = saveFileDialog1.FileName;
-            File.WriteAllText(nombre, cajaSalida.Text);
+            File.WriteAllText(nombre, cajaSalidaManejoStrings.Text);
         }
 
         private void manualDeUsuarioToolStripMenuItem_Click(object sender, EventArgs e)
@@ -210,11 +261,12 @@ namespace InterfazDesktop
 
         private void botonLimpiar_Click(object sender, EventArgs e)
         {
-            cajaEntrada.Clear();
+            cajaEntradaManejoStrings.Clear();
         }
         #endregion
 
-        enum Opcion
+        #region Enumerativos
+        enum ManejoStringsOpcion
         {
             Alrevesar=0,
             Borrar,
@@ -228,6 +280,27 @@ namespace InterfazDesktop
             Atigerear
         }
 
+        enum TiempoOpcion
+        {
+            Sumar = 0,
+            Restar,
+            Duracion
+        }
+
+        enum MatematicasOpcion
+        {
+            Permutacion = 0,
+
+        }
+
+        enum ArchivosOpcion
+        {
+            lol = 0,
+
+        }
+        #endregion
+
+
         private void ayudaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             
@@ -238,6 +311,9 @@ namespace InterfazDesktop
 
         }
 
-        
+        private void botonProcesarMat_Click(object sender, EventArgs e)
+        {
+            ProcesarManejoStrings(cajaEntradaManejoStrings.Text, (ManejoStringsOpcion)selectorManejoStrings.SelectedIndex, cajaAux1.Text, cajaAux2.Text);
+        }
     }
 }
