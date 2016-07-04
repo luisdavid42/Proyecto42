@@ -44,5 +44,9 @@ C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazMovil\Inte
 C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazMovil\InterfazMovil.Droid\obj\Release\android\assets\System.Runtime.Serialization.dll.mdb
 C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazMovil\InterfazMovil.Droid\obj\Release\android\assets\System.ServiceModel.Internals.dll.mdb
 C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazMovil\InterfazMovil.Droid\obj\Release\android\assets\System.Xml.dll.mdb
+C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazMovil\InterfazMovil.Droid\bin\Release\WiriMovil.dll
+C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazMovil\InterfazMovil.Droid\bin\Release\WiriMovil.pdb
+C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazMovil\InterfazMovil.Droid\bin\Release\WiriMovil.dll.mdb
+C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazMovil\InterfazMovil.Droid\obj\Release\android\assets\WiriMovil.dll.mdb
 C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazMovil\InterfazMovil.Droid\obj\Release\InterfazMovil.Droid.dll.mdb
 C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazMovil\InterfazMovil.Droid\bin\Release\InterfazMovil.Droid.dll.mdb

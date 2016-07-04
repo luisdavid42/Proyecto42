@@ -15,6 +15,7 @@ C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazMovil\Inte
 C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazMovil\InterfazMovil.Droid\obj\Release\android\assets\System.Core.dll
 C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazMovil\InterfazMovil.Droid\obj\Release\android\assets\System.dll
 C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazMovil\InterfazMovil.Droid\obj\Release\android\assets\System.Xml.dll
+C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazMovil\InterfazMovil.Droid\obj\Release\android\assets\WiriMovil.dll
 C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazMovil\InterfazMovil.Droid\obj\Release\android\assets\System.Net.Http.dll
 C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazMovil\InterfazMovil.Droid\obj\Release\android\assets\System.Runtime.Serialization.dll
 C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazMovil\InterfazMovil.Droid\obj\Release\android\assets\System.ServiceModel.Internals.dll
