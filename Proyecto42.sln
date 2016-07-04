@@ -21,6 +21,8 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "InterfazMovil", "InterfazMo
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		InterfazMovil\InterfazMovil\InterfazMovil.projitems*{222577ee-be35-47f5-850d-2a529fca0931}*SharedItemsImports = 4
+		InterfazMovil\InterfazMovil\InterfazMovil.projitems*{f0e11e4e-a837-4a3d-9ef6-8df833e52bac}*SharedItemsImports = 4
 		InterfazMovil\InterfazMovil\InterfazMovil.projitems*{69ded839-dfba-4e9a-a2aa-da6ff84320d9}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
