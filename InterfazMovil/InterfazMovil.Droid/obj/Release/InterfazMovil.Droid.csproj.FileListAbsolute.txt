@@ -1,3 +1,4 @@
+C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazMovil\InterfazMovil.Droid\obj\Release\InterfazMovil.Droid.csprojResolveAssemblyReference.cache
 C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazMovil\InterfazMovil.Droid\bin\Release\InterfazMovil.Droid.dll
 C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazMovil\InterfazMovil.Droid\bin\Release\InterfazMovil.Droid.pdb
 C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazMovil\InterfazMovil.Droid\bin\Release\InterfazMovil.Droid.apk
@@ -14,7 +15,7 @@ C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazMovil\Inte
 C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazMovil\InterfazMovil.Droid\bin\Release\Xamarin.Forms.Xaml.dll
 C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazMovil\InterfazMovil.Droid\bin\Release\Xamarin.Forms.Core.xml
 C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazMovil\InterfazMovil.Droid\bin\Release\Xamarin.Forms.Xaml.xml
-C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazMovil\InterfazMovil.Droid\obj\Release\InterfazMovil.Droid.C_.Users.Liu.Documents.Visual_Studio_2013.Projects.Proyecto42.InterfazMovil.InterfazMovil.MainPage.xaml.g.cs
+C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazMovil\InterfazMovil.Droid\obj\Release\InterfazMovil.Droid.C_.Users.Liu.Documents.Visual_Studio_2013.Projects.Proyecto42.InterfazMovil.InterfazMovil.Principal.xaml.g.cs
 C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazMovil\InterfazMovil.Droid\obj\Release\InterfazMovil.Droid.dll
 C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazMovil\InterfazMovil.Droid\obj\Release\InterfazMovil.Droid.pdb
 C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazMovil\InterfazMovil.Droid\obj\Release\android\bin\InterfazMovil.Droid.apk

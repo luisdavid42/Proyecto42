@@ -12,8 +12,7 @@ namespace InterfazMovil
 		public App ()
 		{
             // The root page of your application
-
-            MainPage = new InterfazMovil.MainPage();
+            MainPage = new InterfazMovil.Principal();
 		}
 
 		protected override void OnStart ()

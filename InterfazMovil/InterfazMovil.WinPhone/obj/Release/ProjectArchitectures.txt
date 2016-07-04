@@ -1,0 +1,1 @@
+C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazMovil\InterfazMovil.WinPhone\InterfazMovil.WinPhone.csproj;neutral
