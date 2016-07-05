@@ -10,13 +10,3 @@ C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\WiriMovil\obj\Rele
 C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\WiriMovil\obj\Release\WiriMovil.pdb
 C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\WiriMovil\obj\Release\WiriMovil.dll.mdb
 C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\WiriMovil\bin\Release\WiriMovil.dll.mdb
-C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\WiriMovil\obj\Release\WiriMovil.dll.mdb
-C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\WiriMovil\bin\Release\WiriMovil.dll.mdb
-C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\WiriMovil\obj\Release\WiriMovil.dll.mdb
-C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\WiriMovil\bin\Release\WiriMovil.dll.mdb
-C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\WiriMovil\obj\Release\WiriMovil.dll.mdb
-C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\WiriMovil\bin\Release\WiriMovil.dll.mdb
-C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\WiriMovil\obj\Release\WiriMovil.dll.mdb
-C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\WiriMovil\bin\Release\WiriMovil.dll.mdb
-C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\WiriMovil\obj\Release\WiriMovil.dll.mdb
-C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\WiriMovil\bin\Release\WiriMovil.dll.mdb

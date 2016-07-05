@@ -2385,6 +2385,7 @@ containing a value of this type.
         public static int showCustom=0x7f0b0010;
         public static int showHome=0x7f0b0011;
         public static int showTitle=0x7f0b0012;
+        public static int sliding_tabs=0x7f0b0081;
         public static int snackbar_action=0x7f0b0065;
         public static int snackbar_text=0x7f0b0064;
         public static int split_action_bar=0x7f0b0007;
@@ -2404,6 +2405,7 @@ containing a value of this type.
         public static int title=0x7f0b0041;
         public static int title_bar=0x7f0b0067;
         public static int title_template=0x7f0b0044;
+        public static int toolbar=0x7f0b0082;
         public static int top=0x7f0b0030;
         public static int topPanel=0x7f0b0043;
         public static int up=0x7f0b0008;
@@ -2469,6 +2471,8 @@ containing a value of this type.
         public static int select_dialog_multichoice_material=0x7f03002d;
         public static int select_dialog_singlechoice_material=0x7f03002e;
         public static int support_simple_spinner_dropdown_item=0x7f03002f;
+        public static int tabbar=0x7f030030;
+        public static int toolbar=0x7f030031;
     }
     public static final class string {
         public static int ApplicationName=0x7f05001f;
@@ -2509,6 +2513,7 @@ containing a value of this type.
         public static int AlertDialog_AppCompat_Light=0x7f070082;
         public static int Animation_AppCompat_Dialog=0x7f070083;
         public static int Animation_AppCompat_DropDownUp=0x7f070084;
+        public static int AppCompatDialogStyle=0x7f070146;
         public static int Base_AlertDialog_AppCompat=0x7f070085;
         public static int Base_AlertDialog_AppCompat_Light=0x7f070086;
         public static int Base_Animation_AppCompat_Dialog=0x7f070087;
@@ -2651,6 +2656,10 @@ containing a value of this type.
         public static int CardView=0x7f070004;
         public static int CardView_Dark=0x7f070005;
         public static int CardView_Light=0x7f070006;
+        public static int MainTheme=0x7f070144;
+        /**  Base theme applied no matter what API 
+         */
+        public static int MainTheme_Base=0x7f070145;
         public static int Platform_AppCompat=0x7f070016;
         public static int Platform_AppCompat_Light=0x7f070017;
         public static int Platform_ThemeOverlay_AppCompat=0x7f070078;

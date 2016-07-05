@@ -4,7 +4,7 @@
              x:Class="InterfazMovil.Principal">
   <ContentPage.Content>
     <RelativeLayout>
-
+  
       <Label Text="Proyecto42" FontAttributes="Bold" FontSize="32"
           HorizontalTextAlignment="Center" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Y, Factor=0, Constant=20}" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}" />
 
@@ -19,7 +19,7 @@
       <Button Text="Dale" Clicked="OnButtonClicked" HorizontalOptions="CenterAndExpand"
       RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0,Constant=250}"
       RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.4, Constant=0}"
-          />
+            />
 
       <RelativeLayout Padding="5,0,0,0">
         <Editor x:Name="Cajita2"
@@ -30,6 +30,6 @@
       </RelativeLayout>
 
     </RelativeLayout>
-  </ContentPage.Content>
 
+  </ContentPage.Content>
 </ContentPage>

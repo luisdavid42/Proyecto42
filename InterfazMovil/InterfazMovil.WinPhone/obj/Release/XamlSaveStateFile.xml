@@ -1,6 +1,5 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
-    <LocalAssembly PathName="c:\users\liu\documents\visual studio 2013\projects\proyecto42\interfazmovil\interfazmovil.winphone\obj\release\intermediatexaml\interfazmovil.winphone.exe" HashGuid="0da13f39-ab13-440a-52f5-3811561f83e3" />
     <ReferenceAssembly PathName="c:\users\liu\documents\visual studio 2013\projects\proyecto42\packages\xamarin.forms.2.0.0.6482\lib\wpa81\xamarin.forms.core.dll" HashGuid="c8a30eb8-5ae8-352d-b94f-7c913a7557ba" />
     <ReferenceAssembly PathName="c:\users\liu\documents\visual studio 2013\projects\proyecto42\packages\xamarin.forms.2.0.0.6482\lib\wpa81\xamarin.forms.platform.dll" HashGuid="d9389e38-8a39-bed5-406b-7a34fe4704ea" />
     <ReferenceAssembly PathName="c:\users\liu\documents\visual studio 2013\projects\proyecto42\packages\xamarin.forms.2.0.0.6482\lib\wpa81\xamarin.forms.platform.winrt.dll" HashGuid="dbd728c2-e21b-4125-2be0-f7931b605baa" />
