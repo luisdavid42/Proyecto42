@@ -15,3 +15,9 @@ C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazMovil\Inte
 C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazMovil\InterfazMovil\bin\Release\WiriMovil.pdb
 C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazMovil\InterfazMovil\obj\Release\InterfazMovil.dll.mdb
 C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazMovil\InterfazMovil\bin\Release\InterfazMovil.dll.mdb
+C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazMovil\InterfazMovil\obj\Release\InterfazMovil.dll.mdb
+C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazMovil\InterfazMovil\bin\Release\InterfazMovil.dll.mdb
+C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazMovil\InterfazMovil\obj\Release\InterfazMovil.dll.mdb
+C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazMovil\InterfazMovil\bin\Release\InterfazMovil.dll.mdb
+C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazMovil\InterfazMovil\obj\Release\InterfazMovil.dll.mdb
+C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazMovil\InterfazMovil\bin\Release\InterfazMovil.dll.mdb
