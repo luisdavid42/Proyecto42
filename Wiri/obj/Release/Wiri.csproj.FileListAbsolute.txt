@@ -8,3 +8,8 @@ C:\Users\20125060\Downloads\Proyecto42-master\Wiri\bin\Release\Wiri.pdb
 C:\Users\20125060\Downloads\Proyecto42-master\Wiri\obj\Release\Wiri.csprojResolveAssemblyReference.cache
 C:\Users\20125060\Downloads\Proyecto42-master\Wiri\obj\Release\Wiri.dll
 C:\Users\20125060\Downloads\Proyecto42-master\Wiri\obj\Release\Wiri.pdb
+C:\Users\20125060\Documents\GitHub\Proyecto42\Wiri\bin\Release\Wiri.dll
+C:\Users\20125060\Documents\GitHub\Proyecto42\Wiri\bin\Release\Wiri.pdb
+C:\Users\20125060\Documents\GitHub\Proyecto42\Wiri\obj\Release\Wiri.csprojResolveAssemblyReference.cache
+C:\Users\20125060\Documents\GitHub\Proyecto42\Wiri\obj\Release\Wiri.dll
+C:\Users\20125060\Documents\GitHub\Proyecto42\Wiri\obj\Release\Wiri.pdb

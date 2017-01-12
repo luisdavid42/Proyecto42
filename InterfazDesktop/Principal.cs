@@ -75,6 +75,8 @@ namespace InterfazDesktop
                     break;
                 case ManejoStringsOpcion.Minusculizar: resultado = Wiri.Strings.Minusculizar(entrada);
                     break;
+                case ManejoStringsOpcion.Capitalizar: resultado = Wiri.Strings.CapitalizarLista(entrada);
+                    break;
                 case ManejoStringsOpcion.InvertirCase: resultado = Wiri.Strings.InvertirCase(entrada);
                     break;
                 case ManejoStringsOpcion.Enumerar: resultado = Wiri.Strings.Enumerar(entrada);
@@ -274,6 +276,7 @@ namespace InterfazDesktop
             Regex,
             Mayusculizar,
             Minusculizar,
+            Capitalizar,
             InvertirCase,
             Enumerar,
             MontanaRusa,

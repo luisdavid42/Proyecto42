@@ -99,6 +99,44 @@ namespace Wiri
         }
 
         /// <summary>
+        /// Mayusculiza el primer caracter del string
+        /// </summary>
+        /// <param name="original"></param>
+        /// <returns></returns>
+        public static String CapitalizarString(String original)
+        {
+            string nueva = "";
+            nueva += Char.ToUpper(original[0]) + Minusculizar(original).Substring(1);
+
+            return nueva;
+        }
+
+        /// <summary>
+        /// Mayusculiza el primer caracter del string
+        /// </summary>
+        /// <param name="original"></param>
+        /// <returns></returns>
+        public static String CapitalizarLista(String original)
+        {
+            String resultado = "";
+
+            using (StringReader lector = new StringReader(original))
+            {
+                string linea = string.Empty;
+                do
+                {
+                    linea = lector.ReadLine();
+                    if (linea != null)
+                    {
+                        resultado += Char.ToUpper(original[0]) + Minusculizar(original).Substring(1) + "\r\n";
+                    }
+                } while (linea != null);
+            }
+
+            return resultado;
+        }
+
+        /// <summary>
         /// Invierte todos los caracteres a letras minusculas
         /// </summary>
         /// <param name="original"></param>
