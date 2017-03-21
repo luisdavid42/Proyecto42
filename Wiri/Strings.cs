@@ -217,10 +217,28 @@ namespace Wiri
         /// <returns></returns>
         public static String Atigerear(String original)
         {
-            String resultado = "";
+            String resultado = original;
 
+            resultado = Strings.Reemplazar(resultado, "sien", "100");
+            resultado = Strings.Reemplazar(resultado, "cien", "100");
+            resultado = Strings.Reemplazar(resultado, "sero", "0");
+            resultado = Strings.Reemplazar(resultado, "cero", "0");
+            resultado = Strings.Reemplazar(resultado, "dos", "2");
+            resultado = Strings.Reemplazar(resultado, "do", "2");
+            resultado = Strings.Reemplazar(resultado, "tres", "3");
+            resultado = Strings.Reemplazar(resultado, "tre", "3");
+            resultado = Strings.Reemplazar(resultado, "seis", "6");
+            resultado = Strings.Reemplazar(resultado, "sei", "6");
+            resultado = Strings.Reemplazar(resultado, " de ", " d ");
+            resultado = Strings.Reemplazar(resultado, " y ", " i ");
+            resultado = Strings.Reemplazar(resultado, "sa", "ca");
+            resultado = Strings.Reemplazar(resultado, "se", "ce");
+            resultado = Strings.Reemplazar(resultado, "si", "ci");
+            resultado = Strings.Reemplazar(resultado, "so", "co");
+            resultado = Strings.Reemplazar(resultado, "su", "cu");
+            resultado = Strings.Reemplazar(resultado, "cu", "q");
 
-            resultado += original + " nobulto";
+            //resultado += original + " nobulto";
             return resultado;
         }
 

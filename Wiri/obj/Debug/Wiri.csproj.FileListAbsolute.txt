@@ -7,3 +7,8 @@ C:\Users\20125060\Documents\GitHub\Proyecto42\Wiri\bin\Debug\Wiri.pdb
 C:\Users\20125060\Documents\GitHub\Proyecto42\Wiri\obj\Debug\Wiri.dll
 C:\Users\20125060\Documents\GitHub\Proyecto42\Wiri\obj\Debug\Wiri.pdb
 C:\Users\20125060\Documents\GitHub\Proyecto42\Wiri\obj\Debug\Wiri.csprojResolveAssemblyReference.cache
+C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\Wiri\bin\Debug\Wiri.dll
+C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\Wiri\bin\Debug\Wiri.pdb
+C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\Wiri\obj\Debug\Wiri.csprojResolveAssemblyReference.cache
+C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\Wiri\obj\Debug\Wiri.dll
+C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\Wiri\obj\Debug\Wiri.pdb

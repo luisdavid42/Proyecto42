@@ -31,3 +31,6 @@ C:\Users\20125060\Documents\GitHub\Proyecto42\InterfazDesktop\obj\Debug\Interfaz
 C:\Users\20125060\Documents\GitHub\Proyecto42\InterfazDesktop\obj\Debug\InterfazDesktop.Principal.resources
 C:\Users\20125060\Documents\GitHub\Proyecto42\InterfazDesktop\obj\Debug\InterfazDesktop.Properties.Resources.resources
 C:\Users\20125060\Documents\GitHub\Proyecto42\InterfazDesktop\obj\Debug\InterfazDesktop.csproj.GenerateResource.Cache
+C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazDesktop\bin\Debug\Wiri.dll
+C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazDesktop\bin\Debug\Wiri.pdb
+C:\Users\Liu\Documents\Visual Studio 2013\Projects\Proyecto42\InterfazDesktop\obj\Debug\InterfazDesktop.Forms.Bases.FormBase.resources
